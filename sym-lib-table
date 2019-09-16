@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Zippy)(type Legacy)(uri /Users/jtgans/Projects/Zippy/Zippy.lib)(options "")(descr ""))
+  (lib (name Zippy-rescue)(type Legacy)(uri ${KIPRJMOD}/Zippy-rescue.lib)(options "")(descr ""))
+)
