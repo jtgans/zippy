@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name EZ80L92AZ050SG)(type Legacy)(uri ${KIPRJMOD}/EZ80L92AZ050SG.mod)(options "")(descr ""))
+  (lib (name "ATX Connector")(type Legacy)(uri ${KIPRJMOD}/1-1775099-3.mod)(options "")(descr ""))
+)

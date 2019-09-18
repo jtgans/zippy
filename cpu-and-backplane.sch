@@ -209,8 +209,6 @@ Text Label 1900 4250 0    50   ~ 0
 RTC_XIN
 Text Label 1900 4350 0    50   ~ 0
 RTC_XOUT
-Text Label 1900 5050 0    50   ~ 0
-~RESET
 Wire Wire Line
 	3700 3350 4050 3350
 Wire Wire Line
@@ -360,20 +358,8 @@ Text Label 8950 2250 0    50   ~ 0
 SDA
 Text Label 8950 2350 0    50   ~ 0
 SCL
-Text Label 8950 2500 0    50   ~ 0
-~RESET
 Wire Wire Line
 	3700 5050 4050 5050
-Text Label 4050 5050 2    50   ~ 0
-CLK
-Text Label 8950 2650 0    50   ~ 0
-CLK
-Wire Bus Line
-	3950 2150 3950 2550
-Wire Bus Line
-	3950 950  3950 2050
-Wire Bus Line
-	2050 950  2050 3650
 Text Notes 5350 3700 2    50   Italic 10
 FIXME: HALT_SLP NEEDED FOR WAKEUP!
 Text Notes 5350 2300 2    50   Italic 10
@@ -392,4 +378,18 @@ Text Notes 4150 3350 0    50   Italic 10
 FIXME: NO ROUTING FOR ~INSTRD?
 Text Notes 4150 3550 0    50   Italic 10
 FIXME: NO ROUTING FOR ~WAIT
+Wire Bus Line
+	3950 2150 3950 2550
+Wire Bus Line
+	3950 950  3950 2050
+Wire Bus Line
+	2050 950  2050 3650
+Text HLabel 1900 5050 0    50   Input ~ 0
+~RESET
+Text HLabel 8950 2500 0    50   Input ~ 0
+~RESET
+Text HLabel 4050 5050 2    50   Input ~ 0
+CLK
+Text HLabel 8950 2650 0    50   Input ~ 0
+CLK
 $EndSCHEMATC

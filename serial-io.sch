@@ -1,0 +1,456 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8050 3200 7650 3200
+Wire Wire Line
+	8050 3300 7650 3300
+Wire Wire Line
+	8050 3400 7650 3400
+Wire Wire Line
+	8050 3500 7650 3500
+NoConn ~ 8050 3900
+$Comp
+L eZ80:EZ80L92AZ050SG U?
+U 2 1 5DA1F770
+P 8750 3600
+F 0 "U?" H 9280 3696 50  0000 L CNN
+F 1 "EZ80L92AZ050SG" H 9280 3605 50  0000 L CNN
+F 2 "QFP50P1600X1600X160-100N" H 8750 3600 50  0001 L BNN
+F 3 "" H 8750 3600 50  0001 L BNN
+F 4 "None" H 8750 3600 50  0001 L BNN "Field4"
+F 5 "EZ80L92AZ050SG" H 8750 3600 50  0001 L BNN "Field5"
+F 6 "LQFP-100 Zilog" H 8750 3600 50  0001 L BNN "Field6"
+F 7 "EZ80L92 Series 50 MHz IC WEBSERVER SMT eZ80 Microcontroller - LQFP-100" H 8750 3600 50  0001 L BNN "Field7"
+F 8 "Zilog" H 8750 3600 50  0001 L BNN "Field8"
+	2    8750 3600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8050 3800
+NoConn ~ 8050 3700
+NoConn ~ 8050 3600
+Text Label 7650 3200 0    50   ~ 0
+CPU_TXD
+Text Label 7650 3300 0    50   ~ 0
+CPU_RXD
+Text Label 7650 3400 0    50   ~ 0
+CPU_RTS
+Text Label 7650 3500 0    50   ~ 0
+CPU_CTS
+Wire Wire Line
+	3350 3300 2900 3300
+Wire Wire Line
+	4450 3100 4900 3100
+Wire Wire Line
+	4450 2900 4900 2900
+Wire Wire Line
+	3350 2900 2900 2900
+Text Label 2900 2900 0    50   ~ 0
+CPU_TXD
+Text Label 4900 2900 2    50   ~ 0
+CPU_RXD
+Text Label 4900 3100 2    50   ~ 0
+CPU_CTS
+Text Label 2900 3300 0    50   ~ 0
+CPU_RTS
+Wire Wire Line
+	3850 4000 3850 4200
+Wire Wire Line
+	3850 4200 3950 4200
+Wire Wire Line
+	4250 4200 4250 4000
+Wire Wire Line
+	3950 4000 3950 4200
+Connection ~ 3950 4200
+Wire Wire Line
+	3950 4200 4050 4200
+Wire Wire Line
+	4050 4000 4050 4200
+Connection ~ 4050 4200
+Wire Wire Line
+	4050 4200 4150 4200
+Wire Wire Line
+	4150 4000 4150 4200
+Connection ~ 4150 4200
+Wire Wire Line
+	4150 4200 4250 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5DA2C8E6
+P 4050 4250
+F 0 "#PWR?" H 4050 4000 50  0001 C CNN
+F 1 "GND" H 4055 4077 50  0000 C CNN
+F 2 "" H 4050 4250 50  0001 C CNN
+F 3 "" H 4050 4250 50  0001 C CNN
+	1    4050 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4200 4050 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5DA2D9A9
+P 5350 3050
+F 0 "#PWR?" H 5350 2800 50  0001 C CNN
+F 1 "GND" H 5355 2877 50  0000 C CNN
+F 2 "" H 5350 3050 50  0001 C CNN
+F 3 "" H 5350 3050 50  0001 C CNN
+	1    5350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DA2E0A3
+P 5350 2950
+F 0 "C?" H 5442 2996 50  0000 L CNN
+F 1 "100nF" H 5442 2905 50  0000 L CNN
+F 2 "" H 5350 2950 50  0001 C CNN
+F 3 "~" H 5350 2950 50  0001 C CNN
+	1    5350 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 2300 3850 2000
+Wire Wire Line
+	3850 2000 3950 2000
+Wire Wire Line
+	3950 2000 3950 2300
+Wire Wire Line
+	3850 2000 3850 1900
+Connection ~ 3850 2000
+NoConn ~ 4450 3000
+NoConn ~ 4450 2800
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5DA310C5
+P 1850 2500
+F 0 "J?" H 1907 2967 50  0000 C CNN
+F 1 "USB_B_Micro" H 1907 2876 50  0000 C CNN
+F 2 "" H 2000 2450 50  0001 C CNN
+F 3 "~" H 2000 2450 50  0001 C CNN
+	1    1850 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1750 2900
+Wire Wire Line
+	1850 2900 1850 2950
+Wire Wire Line
+	1850 2950 2150 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5DA343C0
+P 1850 3100
+F 0 "#PWR?" H 1850 2850 50  0001 C CNN
+F 1 "GND" H 1855 2927 50  0000 C CNN
+F 2 "" H 1850 3100 50  0001 C CNN
+F 3 "" H 1850 3100 50  0001 C CNN
+	1    1850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2500 3350 2500
+Wire Wire Line
+	2150 2600 3350 2600
+Wire Wire Line
+	2150 2700 2150 2950
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DA426C5
+P 2400 2100
+F 0 "R?" H 2468 2146 50  0000 L CNN
+F 1 "4.7K" H 2468 2055 50  0000 L CNN
+F 2 "" H 2400 2100 50  0001 C CNN
+F 3 "~" H 2400 2100 50  0001 C CNN
+	1    2400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DA451B2
+P 2400 1700
+F 0 "R?" H 2468 1746 50  0000 L CNN
+F 1 "10K" H 2468 1655 50  0000 L CNN
+F 2 "" H 2400 1700 50  0001 C CNN
+F 3 "~" H 2400 1700 50  0001 C CNN
+	1    2400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA45E16
+P 2400 1550
+F 0 "#PWR?" H 2400 1300 50  0001 C CNN
+F 1 "GND" H 2405 1377 50  0000 C CNN
+F 2 "" H 2400 1550 50  0001 C CNN
+F 3 "" H 2400 1550 50  0001 C CNN
+	1    2400 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 1550 2400 1600
+Wire Wire Line
+	2400 1800 2400 1900
+Wire Wire Line
+	2400 2200 2400 2300
+Wire Wire Line
+	2400 2300 2150 2300
+Wire Wire Line
+	2400 1900 2850 1900
+Wire Wire Line
+	2850 1900 2850 2700
+Wire Wire Line
+	2850 2700 3350 2700
+Connection ~ 2400 1900
+Wire Wire Line
+	2400 1900 2400 2000
+Text Label 2900 2700 0    50   ~ 0
+SER_RES
+Wire Wire Line
+	1850 3100 1850 2950
+Connection ~ 1850 2950
+Wire Wire Line
+	4450 2700 5350 2700
+Wire Wire Line
+	5350 2700 5350 2850
+Text Label 2900 2500 0    50   ~ 0
+SER_D+
+Text Label 2900 2600 0    50   ~ 0
+SER_D-
+$Comp
+L power:+5V #PWR?
+U 1 1 5DA522B9
+P 3850 1900
+F 0 "#PWR?" H 3850 1750 50  0001 C CNN
+F 1 "+5V" H 3865 2073 50  0000 C CNN
+F 2 "" H 3850 1900 50  0001 C CNN
+F 3 "" H 3850 1900 50  0001 C CNN
+	1    3850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DB6E529
+P 3650 4750
+F 0 "C?" H 3742 4796 50  0000 L CNN
+F 1 "100nF" H 3742 4705 50  0000 L CNN
+F 2 "" H 3650 4750 50  0001 C CNN
+F 3 "~" H 3650 4750 50  0001 C CNN
+	1    3650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DB7033D
+P 4100 4750
+F 0 "C?" H 4192 4796 50  0000 L CNN
+F 1 "100nF" H 4192 4705 50  0000 L CNN
+F 2 "" H 4100 4750 50  0001 C CNN
+F 3 "~" H 4100 4750 50  0001 C CNN
+	1    4100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 5DB7146D
+P 4550 4750
+F 0 "C?" H 4641 4796 50  0000 L CNN
+F 1 "4.7uF" H 4641 4705 50  0000 L CNN
+F 2 "" H 4550 4750 50  0001 C CNN
+F 3 "~" H 4550 4750 50  0001 C CNN
+	1    4550 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4650 4100 4650
+Connection ~ 3650 4650
+Wire Wire Line
+	3650 4650 3350 4650
+Connection ~ 4100 4650
+Wire Wire Line
+	4100 4650 3650 4650
+Wire Wire Line
+	4550 4850 4100 4850
+Connection ~ 3650 4850
+Wire Wire Line
+	3650 4850 3350 4850
+Connection ~ 4100 4850
+Wire Wire Line
+	4100 4850 3650 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5DB72CE9
+P 3350 4850
+F 0 "#PWR?" H 3350 4600 50  0001 C CNN
+F 1 "GND" H 3355 4677 50  0000 C CNN
+F 2 "" H 3350 4850 50  0001 C CNN
+F 3 "" H 3350 4850 50  0001 C CNN
+	1    3350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DB7341B
+P 3350 4650
+F 0 "#PWR?" H 3350 4500 50  0001 C CNN
+F 1 "+5V" H 3365 4823 50  0000 C CNN
+F 2 "" H 3350 4650 50  0001 C CNN
+F 3 "" H 3350 4650 50  0001 C CNN
+	1    3350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3800 2900 3800
+Wire Wire Line
+	3350 3700 2900 3700
+Text Label 2900 3700 0    50   ~ 0
+~RXLED
+Text Label 2900 3800 0    50   ~ 0
+~TXLED
+$Comp
+L Device:LED D?
+U 1 1 5DB7CACD
+P 2250 6350
+F 0 "D?" H 2243 6095 50  0000 C CNN
+F 1 "RED" H 2243 6186 50  0000 C CNN
+F 2 "" H 2250 6350 50  0001 C CNN
+F 3 "~" H 2250 6350 50  0001 C CNN
+	1    2250 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DB7DCC6
+P 2250 6750
+F 0 "D?" H 2243 6495 50  0000 C CNN
+F 1 "GREEN" H 2243 6586 50  0000 C CNN
+F 2 "" H 2250 6750 50  0001 C CNN
+F 3 "~" H 2250 6750 50  0001 C CNN
+	1    2250 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 6350 2850 6350
+Wire Wire Line
+	2400 6750 2850 6750
+Text Label 2850 6350 2    50   ~ 0
+~TXLED
+Text Label 2850 6750 2    50   ~ 0
+~RXLED
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DB81B16
+P 1800 6750
+F 0 "R?" V 1595 6750 50  0000 C CNN
+F 1 "270" V 1686 6750 50  0000 C CNN
+F 2 "" H 1800 6750 50  0001 C CNN
+F 3 "~" H 1800 6750 50  0001 C CNN
+	1    1800 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DB823EE
+P 1800 6350
+F 0 "R?" V 1595 6350 50  0000 C CNN
+F 1 "270" V 1686 6350 50  0000 C CNN
+F 2 "" H 1800 6350 50  0001 C CNN
+F 3 "~" H 1800 6350 50  0001 C CNN
+	1    1800 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 6350 1900 6350
+Wire Wire Line
+	2100 6750 1900 6750
+Wire Wire Line
+	1700 6350 1550 6350
+Wire Wire Line
+	1550 6350 1550 6750
+Wire Wire Line
+	1550 6750 1700 6750
+Wire Wire Line
+	1550 6350 1550 6150
+Connection ~ 1550 6350
+$Comp
+L power:+5V #PWR?
+U 1 1 5DB86C1D
+P 1550 6150
+F 0 "#PWR?" H 1550 6000 50  0001 C CNN
+F 1 "+5V" H 1565 6323 50  0000 C CNN
+F 2 "" H 1550 6150 50  0001 C CNN
+F 3 "" H 1550 6150 50  0001 C CNN
+	1    1550 6150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 2800
+NoConn ~ 3350 3000
+NoConn ~ 3350 3100
+NoConn ~ 3350 3200
+$Comp
+L dk_Interface-Controllers:FT232RL-REEL U?
+U 1 1 5DA289DB
+P 4050 2800
+F 0 "U?" H 3900 3503 60  0000 C CNN
+F 1 "FT232RL-REEL" H 3900 3397 60  0000 C CNN
+F 2 "digikey-footprints:SSOP-28_W5.30mm" H 4250 3000 60  0001 L CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 4250 3100 60  0001 L CNN
+F 4 "768-1007-1-ND" H 4250 3200 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT232RL-REEL" H 4250 3300 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 4250 3400 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 4250 3500 60  0001 L CNN "Family"
+F 8 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 4250 3600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402" H 4250 3700 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB FS SERIAL UART 28-SSOP" H 4250 3800 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 4250 3900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4250 4000 60  0001 L CNN "Status"
+	1    4050 2800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 3400
+NoConn ~ 3350 3500
+NoConn ~ 3350 3600
+Wire Notes Line
+	5750 1050 1350 1050
+Wire Notes Line
+	1350 1050 1350 5300
+Wire Notes Line
+	1350 5300 5750 5300
+Wire Notes Line
+	5750 5300 5750 1050
+Wire Notes Line
+	1250 5750 3250 5750
+Wire Notes Line
+	3250 5750 3250 7150
+Wire Notes Line
+	3250 7150 1250 7150
+Wire Notes Line
+	1250 7150 1250 5750
+Wire Notes Line
+	7300 2750 7300 4600
+Wire Notes Line
+	7300 4600 10300 4600
+Wire Notes Line
+	10300 4600 10300 2750
+Wire Notes Line
+	10300 2750 7300 2750
+Text Notes 10300 2850 2    50   Italic 10
+eZ80 Port D UART
+Text Notes 5750 1150 2    50   Italic 10
+FT232RL USB->UART Interface
+Text Notes 3250 5850 2    50   Italic 10
+Serial Traffic Indicators
+Text Notes 7900 4400 0    50   ~ 0
+Note: JTAG debug header is in the backplane\nsheet!
+$EndSCHEMATC

@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name Zippy)(type Legacy)(uri /Users/jtgans/Projects/Zippy/Zippy.lib)(options "")(descr ""))
-  (lib (name Zippy-rescue)(type Legacy)(uri ${KIPRJMOD}/Zippy-rescue.lib)(options "")(descr ""))
+  (lib (name Zippy)(type Legacy)(uri ${KIPRJMOD}/Zippy.lib)(options "")(descr ""))
+  (lib (name eZ80)(type Legacy)(uri ${KIPRJMOD}/EZ80L92AZ050SG.lib)(options "")(descr ""))
+  (lib (name ATX_Connector)(type Legacy)(uri ${KIPRJMOD}/1-1775099-3.lib)(options "")(descr ""))
 )
