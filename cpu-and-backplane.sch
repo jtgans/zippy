@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Zippy-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,91 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2300 1450 2150 1450
-Wire Wire Line
-	2300 1550 2150 1550
-Wire Wire Line
-	2300 1650 2150 1650
-Wire Wire Line
-	2300 1750 2150 1750
-Wire Wire Line
-	2300 1850 2150 1850
-Wire Wire Line
-	2300 1950 2150 1950
-Wire Wire Line
-	2300 2050 2150 2050
-Wire Wire Line
-	2300 2150 2150 2150
-Wire Wire Line
-	2300 2250 2150 2250
-Wire Wire Line
-	2300 2350 2150 2350
-Wire Wire Line
-	2300 2450 2150 2450
-Wire Wire Line
-	2300 2550 2150 2550
-Wire Wire Line
-	2300 2650 2150 2650
-Wire Wire Line
-	2300 2750 2150 2750
-Wire Wire Line
-	2300 2850 2150 2850
-Wire Wire Line
-	2300 2950 2150 2950
-Wire Wire Line
-	2300 3050 2150 3050
-Wire Wire Line
-	2300 3150 2150 3150
-Wire Wire Line
-	2300 3250 2150 3250
-Wire Wire Line
-	2300 3350 2150 3350
-Wire Wire Line
-	2300 3450 2150 3450
-Wire Wire Line
-	2300 3550 2150 3550
-Wire Wire Line
-	2300 3650 2150 3650
-Wire Wire Line
-	2300 3750 2150 3750
-Wire Wire Line
 	2300 3950 1900 3950
 Wire Wire Line
 	2300 4050 1900 4050
 Wire Wire Line
-	2300 4250 1900 4250
-Wire Wire Line
-	2300 4350 1900 4350
-Wire Wire Line
-	2300 4550 1900 4550
-Wire Wire Line
-	2300 4650 1900 4650
-Wire Wire Line
 	2300 5050 1900 5050
-Wire Wire Line
-	3850 1450 3700 1450
-Wire Wire Line
-	3850 1550 3700 1550
-Wire Wire Line
-	3850 1650 3700 1650
-Wire Wire Line
-	3850 1750 3700 1750
-Wire Wire Line
-	3850 1850 3700 1850
-Wire Wire Line
-	3850 1950 3700 1950
-Wire Wire Line
-	3850 2050 3700 2050
-Wire Wire Line
-	3850 2150 3700 2150
-Wire Wire Line
-	3850 2350 3700 2350
-Wire Wire Line
-	3850 2450 3700 2450
-Wire Wire Line
-	3850 2550 3700 2550
-Wire Wire Line
-	3850 2650 3700 2650
 Wire Wire Line
 	4050 2850 3700 2850
 Wire Wire Line
@@ -111,92 +32,70 @@ Wire Wire Line
 	4050 3850 3700 3850
 Wire Wire Line
 	4050 3950 3700 3950
-Wire Wire Line
-	4500 4350 3700 4350
-Wire Wire Line
-	4500 4450 3700 4450
-Wire Wire Line
-	4500 4550 3700 4550
-Wire Wire Line
-	4500 4650 3700 4650
 Entry Wire Line
-	2050 1550 2150 1650
+	1650 1550 1750 1650
 Entry Wire Line
-	2050 1450 2150 1550
+	1650 1450 1750 1550
 Entry Wire Line
-	2050 1350 2150 1450
+	1650 1350 1750 1450
 Entry Wire Line
-	2050 1650 2150 1750
+	1650 1650 1750 1750
 Entry Wire Line
-	2050 1750 2150 1850
+	1650 1750 1750 1850
 Entry Wire Line
-	2050 1850 2150 1950
+	1650 1850 1750 1950
 Entry Wire Line
-	2050 1950 2150 2050
+	1650 1950 1750 2050
 Entry Wire Line
-	2050 2250 2150 2350
+	1650 2250 1750 2350
 Entry Wire Line
-	2050 2150 2150 2250
+	1650 2150 1750 2250
 Entry Wire Line
-	2050 2050 2150 2150
+	1650 2050 1750 2150
 Entry Wire Line
-	2050 2350 2150 2450
+	1650 2350 1750 2450
 Entry Wire Line
-	2050 2450 2150 2550
+	1650 2450 1750 2550
 Entry Wire Line
-	2050 2550 2150 2650
+	1650 2550 1750 2650
 Entry Wire Line
-	2050 2650 2150 2750
+	1650 2650 1750 2750
 Entry Wire Line
-	2050 2750 2150 2850
+	1650 2750 1750 2850
 Entry Wire Line
-	2050 3050 2150 3150
+	1650 3050 1750 3150
 Entry Wire Line
-	2050 2950 2150 3050
+	1650 2950 1750 3050
 Entry Wire Line
-	2050 2850 2150 2950
+	1650 2850 1750 2950
 Entry Wire Line
-	2050 3150 2150 3250
+	1650 3150 1750 3250
 Entry Wire Line
-	2050 3250 2150 3350
+	1650 3250 1750 3350
 Entry Wire Line
-	2050 3350 2150 3450
+	1650 3350 1750 3450
 Entry Wire Line
-	2050 3450 2150 3550
+	1650 3450 1750 3550
 Entry Wire Line
-	2050 3550 2150 3650
+	1650 3550 1750 3650
 Entry Wire Line
-	2050 3650 2150 3750
+	1650 3650 1750 3750
 Entry Wire Line
-	3850 1450 3950 1350
+	4100 1450 4200 1350
 Entry Wire Line
-	3850 1550 3950 1450
+	4100 1550 4200 1450
 Entry Wire Line
-	3850 1650 3950 1550
+	4100 1650 4200 1550
 Entry Wire Line
-	3850 1750 3950 1650
+	4100 1750 4200 1650
 Entry Wire Line
-	3850 1850 3950 1750
+	4100 1850 4200 1750
 Entry Wire Line
-	3850 1950 3950 1850
+	4100 1950 4200 1850
 Entry Wire Line
-	3850 2050 3950 1950
+	4100 2050 4200 1950
 Entry Wire Line
-	3850 2150 3950 2050
-Text Label 3950 1000 0    50   ~ 0
-DATA[0..7]
-Text Label 2050 1000 2    50   ~ 0
-ADDR[0..23]
-Entry Wire Line
-	3850 2650 3950 2550
-Entry Wire Line
-	3850 2550 3950 2450
-Entry Wire Line
-	3850 2450 3950 2350
-Entry Wire Line
-	3850 2350 3950 2250
-Text Label 3950 2200 0    50   ~ 0
-~CS[0..3]
+	4100 2150 4200 2050
 Text Label 1900 3950 0    50   ~ 0
 I2C_SCL
 Text Label 1900 4050 0    50   ~ 0
@@ -213,61 +112,9 @@ Wire Wire Line
 	3700 3350 4050 3350
 Wire Wire Line
 	3700 3550 4050 3550
-$Comp
-L eZ80:EZ80L92AZ050SG U?
-U 1 1 5DBBD224
-P 3000 3250
-F 0 "U?" H 3000 5317 50  0000 C CNN
-F 1 "EZ80L92AZ050SG" H 3000 5226 50  0000 C CNN
-F 2 "QFP50P1600X1600X160-100N" H 3000 3250 50  0001 L BNN
-F 3 "" H 3000 3250 50  0001 L BNN
-F 4 "None" H 3000 3250 50  0001 L BNN "Field4"
-F 5 "EZ80L92AZ050SG" H 3000 3250 50  0001 L BNN "Field5"
-F 6 "LQFP-100 Zilog" H 3000 3250 50  0001 L BNN "Field6"
-F 7 "EZ80L92 Series 50 MHz IC WEBSERVER SMT eZ80 Microcontroller - LQFP-100" H 3000 3250 50  0001 L BNN "Field7"
-F 8 "Zilog" H 3000 3250 50  0001 L BNN "Field8"
-	1    3000 3250
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3700 3650
 Wire Wire Line
 	3700 4150 4050 4150
-Text Label 4500 4350 2    50   ~ 0
-JTAG_TMS
-Text Label 4500 4450 2    50   ~ 0
-JTAG_TCK
-Text Label 4500 4550 2    50   ~ 0
-JTAG_TDI
-Text Label 4500 4650 2    50   ~ 0
-JTAG_TDO
-Text Label 4500 4750 2    50   ~ 0
-JTAG_TRIGOUT
-$Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:B5B-XH-A_LF__SN_ J?
-U 1 1 5DC08C08
-P 4600 4350
-F 0 "J?" V 4749 4222 50  0000 R CNN
-F 1 "JTAG_HEADER" V 4840 4222 50  0000 R CNN
-F 2 "digikey-footprints:PinHeader_1x5_P2.5mm_Drill1.1mm" H 4800 4550 60  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 4800 4650 60  0001 L CNN
-F 4 "455-2270-ND" H 4800 4750 60  0001 L CNN "Digi-Key_PN"
-F 5 "B5B-XH-A(LF)(SN)" H 4800 4850 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 4800 4950 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 4800 5050 60  0001 L CNN "Family"
-F 8 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 4800 5150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/jst-sales-america-inc/B5B-XH-A(LF)(SN)/455-2270-ND/1530483" H 4800 5250 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 5POS 2.5MM" H 4800 5350 60  0001 L CNN "Description"
-F 11 "JST Sales America Inc." H 4800 5450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4800 5550 60  0001 L CNN "Status"
-	1    4600 4350
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	3700 4850 3850 4850
-Wire Wire Line
-	3850 4850 3850 4750
-Wire Wire Line
-	3850 4750 4500 4750
 Text Label 4050 4150 2    50   ~ 0
 ~NMI
 Text Label 4050 3950 2    50   ~ 0
@@ -285,9 +132,9 @@ Text Label 4050 3050 2    50   ~ 0
 Text Label 4050 2950 2    50   ~ 0
 ~MREQ
 Text Label 4050 2850 2    50   ~ 0
-~IORQ
+~IOREQ
 $Sheet
-S 9500 950  1150 1800
+S 9500 950  1150 2000
 U 5DC1DB45
 F0 "Backplane Connectors" 50
 F1 "backplane-connnectors.sch" 50
@@ -303,8 +150,10 @@ F10 "~IRQ0" I L 9500 2000 50
 F11 "~IRQ1" I L 9500 2100 50 
 F12 "SDA" I L 9500 2250 50 
 F13 "SCL" I L 9500 2350 50 
-F14 "RST" I L 9500 2500 50 
-F15 "CLK" I L 9500 2650 50 
+F14 "RST" I L 9500 2800 50 
+F15 "~WAIT" I L 9500 2550 50 
+F16 "~CS3" I L 9500 2650 50 
+F17 "PHI" I L 9500 2900 50 
 $EndSheet
 Wire Bus Line
 	9500 1000 8950 1000
@@ -331,9 +180,9 @@ Wire Wire Line
 Wire Wire Line
 	9500 2350 8950 2350
 Wire Wire Line
-	9500 2500 8950 2500
+	9500 2800 8950 2800
 Wire Wire Line
-	9500 2650 8950 2650
+	9500 2900 8950 2900
 Text Label 8950 1000 0    50   ~ 0
 DATA[0..7]
 Text Label 8950 1100 0    50   ~ 0
@@ -355,41 +204,583 @@ Text Label 8950 2000 0    50   ~ 0
 Text Label 8950 2100 0    50   ~ 0
 ~IRQ1
 Text Label 8950 2250 0    50   ~ 0
-SDA
+I2C_SDA
 Text Label 8950 2350 0    50   ~ 0
-SCL
+I2C_SCL
 Wire Wire Line
 	3700 5050 4050 5050
-Text Notes 5350 3700 2    50   Italic 10
-FIXME: HALT_SLP NEEDED FOR WAKEUP!
-Text Notes 5350 2300 2    50   Italic 10
-FIXME: NO ROUTING FOR CS[0..3]
-Text Notes 3300 6000 2    50   Italic 10
-FIXME: CPU CRYSTAL
-Text Notes 3300 6900 2    50   Italic 10
-FIXME: RTC CRYSTAL
 Text Notes 2250 5200 2    50   Italic 10
 FIXME: DO WE NEED A RESET CONTROLLER?
-Text Notes 3900 5200 0    50   Italic 10
-FIXME: CLK from XTAL instead of PHI?
 Text Notes 4150 4150 0    50   Italic 10
-FIXME: NO ROUTING FOR NMI?
-Text Notes 4150 3350 0    50   Italic 10
-FIXME: NO ROUTING FOR ~INSTRD?
-Text Notes 4150 3550 0    50   Italic 10
-FIXME: NO ROUTING FOR ~WAIT
-Wire Bus Line
-	3950 2150 3950 2550
-Wire Bus Line
-	3950 950  3950 2050
-Wire Bus Line
-	2050 950  2050 3650
+FIXME: ROUTE ON MAINBOARD ONLY
 Text HLabel 1900 5050 0    50   Input ~ 0
 ~RESET
-Text HLabel 8950 2500 0    50   Input ~ 0
+Text HLabel 8950 2800 0    50   Input ~ 0
 ~RESET
 Text HLabel 4050 5050 2    50   Input ~ 0
-CLK
-Text HLabel 8950 2650 0    50   Input ~ 0
-CLK
+PHI
+Text HLabel 8950 2900 0    50   Input ~ 0
+PHI
+Text Notes 5400 2300 2    50   Italic 10
+FIXME: ROUTE TO SYSTEM RAM
+Entry Wire Line
+	4100 2350 4200 2250
+Entry Wire Line
+	4100 2450 4200 2350
+Entry Wire Line
+	4100 2550 4200 2450
+Entry Wire Line
+	4100 2650 4200 2550
+Text Notes 4150 3350 0    50   Italic 10
+FIXME: ROUTE TO MAINBOARD ONLY
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5D861616
+P 9900 4900
+F 0 "J1" H 9950 5217 50  0000 C CNN
+F 1 "ZDI" H 9950 5126 50  0000 C CNN
+F 2 "" H 9900 4900 50  0001 C CNN
+F 3 "~" H 9900 4900 50  0001 C CNN
+	1    9900 4900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4450 4050 4450
+Text Label 4050 4450 2    50   ~ 0
+TCK
+Wire Wire Line
+	3700 4550 4050 4550
+Text Label 4050 4550 2    50   ~ 0
+TDI
+$Comp
+L eZ80:EZ80L92AZ050SG U1
+U 1 1 5DBBD224
+P 3000 3250
+F 0 "U1" H 3000 5317 50  0000 C CNN
+F 1 "EZ80L92AZ050SG" H 3000 5226 50  0000 C CNN
+F 2 "QFP50P1600X1600X160-100N" H 3000 3250 50  0001 L BNN
+F 3 "" H 3000 3250 50  0001 L BNN
+F 4 "None" H 3000 3250 50  0001 L BNN "Field4"
+F 5 "EZ80L92AZ050SG" H 3000 3250 50  0001 L BNN "Field5"
+F 6 "LQFP-100 Zilog" H 3000 3250 50  0001 L BNN "Field6"
+F 7 "EZ80L92 Series 50 MHz IC WEBSERVER SMT eZ80 Microcontroller - LQFP-100" H 3000 3250 50  0001 L BNN "Field7"
+F 8 "Zilog" H 3000 3250 50  0001 L BNN "Field8"
+	1    3000 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3700 4350
+NoConn ~ 3700 4650
+NoConn ~ 3700 4850
+NoConn ~ 9600 4800
+Text Label 9050 4900 0    50   ~ 0
+TCK
+Text Label 9050 5000 0    50   ~ 0
+TDI
+Wire Wire Line
+	10250 4900 10100 4900
+Wire Wire Line
+	10250 5000 10100 5000
+$Comp
+L power:GND #PWR0101
+U 1 1 5D883D0A
+P 10250 5100
+F 0 "#PWR0101" H 10250 4850 50  0001 C CNN
+F 1 "GND" H 10255 4927 50  0000 C CNN
+F 2 "" H 10250 5100 50  0001 C CNN
+F 3 "" H 10250 5100 50  0001 C CNN
+	1    10250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 4900 10250 5000
+Connection ~ 10250 5000
+Wire Wire Line
+	10250 5000 10250 5100
+Wire Wire Line
+	10100 4800 10250 4800
+Wire Wire Line
+	10250 4800 10250 4300
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5D888EE7
+P 10250 4200
+F 0 "#PWR0102" H 10250 4050 50  0001 C CNN
+F 1 "+3.3V" H 10265 4373 50  0000 C CNN
+F 2 "" H 10250 4200 50  0001 C CNN
+F 3 "" H 10250 4200 50  0001 C CNN
+	1    10250 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5000 9450 5000
+Wire Wire Line
+	9600 4900 9300 4900
+$Comp
+L Device:R_Small_US R2
+U 1 1 5D88FCFB
+P 9450 4500
+F 0 "R2" H 9518 4546 50  0000 L CNN
+F 1 "10K" H 9518 4455 50  0000 L CNN
+F 2 "" H 9450 4500 50  0001 C CNN
+F 3 "~" H 9450 4500 50  0001 C CNN
+	1    9450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5D88EC78
+P 9300 4500
+F 0 "R1" H 9368 4546 50  0000 L CNN
+F 1 "10K" H 9368 4455 50  0000 L CNN
+F 2 "" H 9300 4500 50  0001 C CNN
+F 3 "~" H 9300 4500 50  0001 C CNN
+	1    9300 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4400 9300 4300
+Wire Wire Line
+	9300 4300 9450 4300
+Connection ~ 10250 4300
+Wire Wire Line
+	10250 4300 10250 4200
+Wire Wire Line
+	9450 4400 9450 4300
+Connection ~ 9450 4300
+Wire Wire Line
+	9450 4300 10250 4300
+Wire Wire Line
+	9300 4600 9300 4900
+Connection ~ 9300 4900
+Wire Wire Line
+	9300 4900 9050 4900
+Wire Wire Line
+	9450 4600 9450 5000
+Connection ~ 9450 5000
+Wire Wire Line
+	9450 5000 9050 5000
+Wire Notes Line
+	10550 3750 8900 3750
+Wire Notes Line
+	8900 3750 8900 5450
+Wire Notes Line
+	8900 5450 10550 5450
+Wire Notes Line
+	10550 5450 10550 3750
+Text Notes 10550 3850 2    50   Italic 10
+ZDI Debug Interface
+Wire Wire Line
+	9500 2550 8950 2550
+Wire Wire Line
+	9500 2650 8950 2650
+Text Label 8950 2550 0    50   ~ 0
+~WAIT
+Text Label 8950 2650 0    50   ~ 0
+~CS3
+Wire Bus Line
+	8850 2650 8950 2650
+Text HLabel 1650 950  0    50   Input ~ 0
+ADDR[0..23]
+Text HLabel 4200 950  2    50   Input ~ 0
+DATA[0..7]
+Text HLabel 4200 2150 2    50   Input ~ 0
+~CS[0..3]
+Text HLabel 8850 2650 0    50   Input ~ 0
+~CS[0..3]
+Wire Wire Line
+	3700 1450 4100 1450
+Wire Wire Line
+	3700 1550 4100 1550
+Wire Wire Line
+	3700 1650 4100 1650
+Wire Wire Line
+	3700 1750 4100 1750
+Wire Wire Line
+	3700 1850 4100 1850
+Wire Wire Line
+	3700 1950 4100 1950
+Wire Wire Line
+	3700 2050 4100 2050
+Wire Wire Line
+	3700 2150 4100 2150
+Wire Wire Line
+	3700 2650 4100 2650
+Wire Wire Line
+	3700 2550 4100 2550
+Wire Wire Line
+	3700 2450 4100 2450
+Wire Wire Line
+	3700 2350 4100 2350
+Text Label 4050 1450 2    50   ~ 0
+DATA0
+Text Label 4050 1550 2    50   ~ 0
+DATA1
+Text Label 4050 1650 2    50   ~ 0
+DATA2
+Text Label 4050 1750 2    50   ~ 0
+DATA3
+Text Label 4050 1850 2    50   ~ 0
+DATA4
+Text Label 4050 1950 2    50   ~ 0
+DATA5
+Text Label 4050 2050 2    50   ~ 0
+DATA6
+Text Label 4050 2150 2    50   ~ 0
+DATA7
+Text Label 4050 2350 2    50   ~ 0
+~CS0
+Text Label 4050 2450 2    50   ~ 0
+~CS1
+Text Label 4050 2550 2    50   ~ 0
+~CS2
+Text Label 4050 2650 2    50   ~ 0
+~CS3
+Wire Wire Line
+	1750 2250 2300 2250
+Wire Wire Line
+	1750 2350 2300 2350
+Wire Wire Line
+	1750 2450 2300 2450
+Wire Wire Line
+	1750 2550 2300 2550
+Wire Wire Line
+	1750 2650 2300 2650
+Wire Wire Line
+	1750 2750 2300 2750
+Wire Wire Line
+	1750 2850 2300 2850
+Wire Wire Line
+	1750 2950 2300 2950
+Wire Wire Line
+	1750 3050 2300 3050
+Wire Wire Line
+	1750 3150 2300 3150
+Wire Wire Line
+	1750 3250 2300 3250
+Wire Wire Line
+	1750 3350 2300 3350
+Wire Wire Line
+	1750 3450 2300 3450
+Wire Wire Line
+	1750 3550 2300 3550
+Wire Wire Line
+	1750 3650 2300 3650
+Wire Wire Line
+	1750 3750 2300 3750
+Wire Wire Line
+	1750 1450 2300 1450
+Wire Wire Line
+	1750 1550 2300 1550
+Wire Wire Line
+	1750 1650 2300 1650
+Wire Wire Line
+	1750 1750 2300 1750
+Wire Wire Line
+	1750 1850 2300 1850
+Wire Wire Line
+	1750 1950 2300 1950
+Wire Wire Line
+	1750 2050 2300 2050
+Wire Wire Line
+	1750 2150 2300 2150
+Text Label 1900 1450 0    50   ~ 0
+ADDR0
+Text Label 1900 1550 0    50   ~ 0
+ADDR1
+Text Label 1900 1650 0    50   ~ 0
+ADDR2
+Text Label 1900 1750 0    50   ~ 0
+ADDR3
+Text Label 1900 1850 0    50   ~ 0
+ADDR4
+Text Label 1900 1950 0    50   ~ 0
+ADDR5
+Text Label 1900 2050 0    50   ~ 0
+ADDR6
+Text Label 1900 2150 0    50   ~ 0
+ADDR7
+Text Label 1900 2250 0    50   ~ 0
+ADDR8
+Text Label 1900 2350 0    50   ~ 0
+ADDR9
+Text Label 1900 2450 0    50   ~ 0
+ADDR10
+Text Label 1900 2550 0    50   ~ 0
+ADDR11
+Text Label 1900 2650 0    50   ~ 0
+ADDR12
+Text Label 1900 2750 0    50   ~ 0
+ADDR13
+Text Label 1900 2850 0    50   ~ 0
+ADDR14
+Text Label 1900 2950 0    50   ~ 0
+ADDR15
+Text Label 1900 3050 0    50   ~ 0
+ADDR16
+Text Label 1900 3150 0    50   ~ 0
+ADDR17
+Text Label 1900 3250 0    50   ~ 0
+ADDR18
+Text Label 1900 3350 0    50   ~ 0
+ADDR19
+Text Label 1900 3450 0    50   ~ 0
+ADDR20
+Text Label 1900 3550 0    50   ~ 0
+ADDR21
+Text Label 1900 3650 0    50   ~ 0
+ADDR22
+Text Label 1900 3750 0    50   ~ 0
+ADDR23
+Wire Wire Line
+	1900 4550 2300 4550
+Wire Wire Line
+	1900 4650 2300 4650
+Wire Wire Line
+	1900 4250 2300 4250
+Wire Wire Line
+	1900 4350 2300 4350
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 5DD229B7
+P 1500 6600
+F 0 "Y1" H 1500 6825 50  0000 C CNN
+F 1 "20MHz Par. Fund." H 1500 6734 50  0000 C CNN
+F 2 "" H 1500 6600 50  0001 C CNN
+F 3 "~" H 1500 6600 50  0001 C CNN
+	1    1500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R9
+U 1 1 5DD2327B
+P 1500 6950
+F 0 "R9" V 1295 6950 50  0000 C CNN
+F 1 "100K" V 1386 6950 50  0000 C CNN
+F 2 "" H 1500 6950 50  0001 C CNN
+F 3 "~" H 1500 6950 50  0001 C CNN
+	1    1500 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C29
+U 1 1 5DD23FF8
+P 1100 7100
+F 0 "C29" H 1192 7146 50  0000 L CNN
+F 1 "22pF" H 1192 7055 50  0000 L CNN
+F 2 "" H 1100 7100 50  0001 C CNN
+F 3 "~" H 1100 7100 50  0001 C CNN
+	1    1100 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 5DD24CB5
+P 1900 7100
+F 0 "C30" H 1992 7146 50  0000 L CNN
+F 1 "22pF" H 1992 7055 50  0000 L CNN
+F 2 "" H 1900 7100 50  0001 C CNN
+F 3 "~" H 1900 7100 50  0001 C CNN
+	1    1900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 5DD25744
+P 1500 7300
+F 0 "#PWR0154" H 1500 7050 50  0001 C CNN
+F 1 "GND" H 1505 7127 50  0000 C CNN
+F 2 "" H 1500 7300 50  0001 C CNN
+F 3 "" H 1500 7300 50  0001 C CNN
+	1    1500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 5DD2E848
+P 1900 6400
+F 0 "R10" H 1968 6446 50  0000 L CNN
+F 1 "220" H 1968 6355 50  0000 L CNN
+F 2 "" H 1900 6400 50  0001 C CNN
+F 3 "~" H 1900 6400 50  0001 C CNN
+	1    1900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6600 1100 6600
+Wire Wire Line
+	1100 6600 1100 6950
+Wire Wire Line
+	1100 6950 1400 6950
+Connection ~ 1100 6950
+Wire Wire Line
+	1100 6950 1100 7000
+Wire Wire Line
+	1600 6950 1900 6950
+Wire Wire Line
+	1900 6950 1900 7000
+Wire Wire Line
+	1900 6950 1900 6600
+Connection ~ 1900 6950
+Wire Wire Line
+	1900 6600 1600 6600
+Connection ~ 1900 6600
+Wire Wire Line
+	1900 6600 1900 6500
+Wire Wire Line
+	1100 6600 1100 5850
+Connection ~ 1100 6600
+Wire Wire Line
+	1900 6300 1900 5850
+Wire Wire Line
+	1100 7200 1100 7250
+Wire Wire Line
+	1100 7250 1500 7250
+Wire Wire Line
+	1900 7250 1900 7200
+Wire Wire Line
+	1500 7250 1500 7300
+Connection ~ 1500 7250
+Wire Wire Line
+	1500 7250 1900 7250
+Text Label 1100 5850 3    50   ~ 0
+CPU_XIN
+Text Label 1900 5850 3    50   ~ 0
+CPU_XOUT
+Wire Notes Line
+	750  5600 2350 5600
+Wire Notes Line
+	2350 5600 2350 7650
+Wire Notes Line
+	2350 7650 750  7650
+Wire Notes Line
+	750  7650 750  5600
+Text Notes 2350 5700 2    50   Italic 10
+CPU / System Clock
+Text Notes 2400 7750 2    50   Italic 10
+NOTE: NO MORE THAN 4pF STRAY CAPACITANCE
+$Comp
+L Device:Crystal_Small Y2
+U 1 1 5DDA4CB5
+P 3650 6600
+F 0 "Y2" H 3650 6825 50  0000 C CNN
+F 1 "32kHz Par. Fund." H 3650 6734 50  0000 C CNN
+F 2 "" H 3650 6600 50  0001 C CNN
+F 3 "~" H 3650 6600 50  0001 C CNN
+	1    3650 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 5DDA4CBF
+P 3650 6950
+F 0 "R11" V 3445 6950 50  0000 C CNN
+F 1 "100K" V 3536 6950 50  0000 C CNN
+F 2 "" H 3650 6950 50  0001 C CNN
+F 3 "~" H 3650 6950 50  0001 C CNN
+	1    3650 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 5DDA4CC9
+P 3250 7100
+F 0 "C31" H 3342 7146 50  0000 L CNN
+F 1 "18pF" H 3342 7055 50  0000 L CNN
+F 2 "" H 3250 7100 50  0001 C CNN
+F 3 "~" H 3250 7100 50  0001 C CNN
+	1    3250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C32
+U 1 1 5DDA4CD3
+P 4050 7100
+F 0 "C32" H 4142 7146 50  0000 L CNN
+F 1 "18pF" H 4142 7055 50  0000 L CNN
+F 2 "" H 4050 7100 50  0001 C CNN
+F 3 "~" H 4050 7100 50  0001 C CNN
+	1    4050 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0155
+U 1 1 5DDA4CDD
+P 3650 7300
+F 0 "#PWR0155" H 3650 7050 50  0001 C CNN
+F 1 "GND" H 3655 7127 50  0000 C CNN
+F 2 "" H 3650 7300 50  0001 C CNN
+F 3 "" H 3650 7300 50  0001 C CNN
+	1    3650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R12
+U 1 1 5DDA4CE7
+P 4050 6400
+F 0 "R12" H 4118 6446 50  0000 L CNN
+F 1 "220" H 4118 6355 50  0000 L CNN
+F 2 "" H 4050 6400 50  0001 C CNN
+F 3 "~" H 4050 6400 50  0001 C CNN
+	1    4050 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 6600 3250 6600
+Wire Wire Line
+	3250 6600 3250 6950
+Wire Wire Line
+	3250 6950 3550 6950
+Connection ~ 3250 6950
+Wire Wire Line
+	3250 6950 3250 7000
+Wire Wire Line
+	3750 6950 4050 6950
+Wire Wire Line
+	4050 6950 4050 7000
+Wire Wire Line
+	4050 6950 4050 6600
+Connection ~ 4050 6950
+Wire Wire Line
+	4050 6600 3750 6600
+Connection ~ 4050 6600
+Wire Wire Line
+	4050 6600 4050 6500
+Wire Wire Line
+	3250 6600 3250 5850
+Connection ~ 3250 6600
+Wire Wire Line
+	4050 6300 4050 5850
+Wire Wire Line
+	3250 7200 3250 7250
+Wire Wire Line
+	3250 7250 3650 7250
+Wire Wire Line
+	4050 7250 4050 7200
+Wire Wire Line
+	3650 7250 3650 7300
+Connection ~ 3650 7250
+Wire Wire Line
+	3650 7250 4050 7250
+Text Label 3250 5850 3    50   ~ 0
+RTC_XIN
+Text Label 4050 5850 3    50   ~ 0
+RTC_XOUT
+Wire Notes Line
+	4450 5600 2950 5600
+Wire Notes Line
+	2950 5600 2950 7650
+Wire Notes Line
+	2950 7650 4450 7650
+Wire Notes Line
+	4450 7650 4450 5600
+Wire Bus Line
+	4200 2150 4200 2550
+Wire Bus Line
+	4200 950  4200 2050
+Wire Bus Line
+	1650 950  1650 3650
+Text Notes 4450 5700 2    50   Italic 10
+RTC Clock
+Text Notes 4600 7750 2    50   Italic 10
+NOTE: NO MORE THAN 4pF STRAY CAPACITANCE
 $EndSCHEMATC
