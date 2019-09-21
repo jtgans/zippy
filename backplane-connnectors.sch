@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -743,253 +743,11 @@ Wire Wire Line
 	10100 2900 10200 2900
 Wire Wire Line
 	10400 2900 10400 2800
-$Comp
-L Device:CP1_Small C1
-U 1 1 5DD16967
-P 8200 3900
-F 0 "C1" H 8291 3946 50  0000 L CNN
-F 1 "10nF" H 8291 3855 50  0000 L CNN
-F 2 "" H 8200 3900 50  0001 C CNN
-F 3 "~" H 8200 3900 50  0001 C CNN
-	1    8200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C5
-U 1 1 5DD172DC
-P 8700 3900
-F 0 "C5" H 8791 3946 50  0000 L CNN
-F 1 "10nF" H 8791 3855 50  0000 L CNN
-F 2 "" H 8700 3900 50  0001 C CNN
-F 3 "~" H 8700 3900 50  0001 C CNN
-	1    8700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C9
-U 1 1 5DD178CA
-P 9200 3900
-F 0 "C9" H 9291 3946 50  0000 L CNN
-F 1 "10nF" H 9291 3855 50  0000 L CNN
-F 2 "" H 9200 3900 50  0001 C CNN
-F 3 "~" H 9200 3900 50  0001 C CNN
-	1    9200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C13
-U 1 1 5DD17E16
-P 9650 3900
-F 0 "C13" H 9741 3946 50  0000 L CNN
-F 1 "10nF" H 9741 3855 50  0000 L CNN
-F 2 "" H 9650 3900 50  0001 C CNN
-F 3 "~" H 9650 3900 50  0001 C CNN
-	1    9650 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C2
-U 1 1 5DD1D0BA
-P 8200 4800
-F 0 "C2" H 8291 4846 50  0000 L CNN
-F 1 "4.7uF" H 8291 4755 50  0000 L CNN
-F 2 "" H 8200 4800 50  0001 C CNN
-F 3 "~" H 8200 4800 50  0001 C CNN
-	1    8200 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C6
-U 1 1 5DD31BA6
-P 8700 4800
-F 0 "C6" H 8791 4846 50  0000 L CNN
-F 1 "4.7uF" H 8791 4755 50  0000 L CNN
-F 2 "" H 8700 4800 50  0001 C CNN
-F 3 "~" H 8700 4800 50  0001 C CNN
-	1    8700 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C10
-U 1 1 5DD31FE4
-P 9200 4800
-F 0 "C10" H 9291 4846 50  0000 L CNN
-F 1 "4.7uF" H 9291 4755 50  0000 L CNN
-F 2 "" H 9200 4800 50  0001 C CNN
-F 3 "~" H 9200 4800 50  0001 C CNN
-	1    9200 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C14
-U 1 1 5DD3239B
-P 9650 4800
-F 0 "C14" H 9741 4846 50  0000 L CNN
-F 1 "4.7uF" H 9741 4755 50  0000 L CNN
-F 2 "" H 9650 4800 50  0001 C CNN
-F 3 "~" H 9650 4800 50  0001 C CNN
-	1    9650 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C3
-U 1 1 5DD32788
-P 8200 5200
-F 0 "C3" H 8291 5246 50  0000 L CNN
-F 1 "4.7uF" H 8291 5155 50  0000 L CNN
-F 2 "" H 8200 5200 50  0001 C CNN
-F 3 "~" H 8200 5200 50  0001 C CNN
-	1    8200 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C7
-U 1 1 5DD32792
-P 8700 5200
-F 0 "C7" H 8791 5246 50  0000 L CNN
-F 1 "4.7uF" H 8791 5155 50  0000 L CNN
-F 2 "" H 8700 5200 50  0001 C CNN
-F 3 "~" H 8700 5200 50  0001 C CNN
-	1    8700 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C11
-U 1 1 5DD3279C
-P 9200 5200
-F 0 "C11" H 9291 5246 50  0000 L CNN
-F 1 "4.7uF" H 9291 5155 50  0000 L CNN
-F 2 "" H 9200 5200 50  0001 C CNN
-F 3 "~" H 9200 5200 50  0001 C CNN
-	1    9200 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C15
-U 1 1 5DD327A6
-P 9650 5200
-F 0 "C15" H 9741 5246 50  0000 L CNN
-F 1 "4.7uF" H 9741 5155 50  0000 L CNN
-F 2 "" H 9650 5200 50  0001 C CNN
-F 3 "~" H 9650 5200 50  0001 C CNN
-	1    9650 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C4
-U 1 1 5DD36E79
-P 8200 5600
-F 0 "C4" H 8291 5646 50  0000 L CNN
-F 1 "4.7uF" H 8291 5555 50  0000 L CNN
-F 2 "" H 8200 5600 50  0001 C CNN
-F 3 "~" H 8200 5600 50  0001 C CNN
-	1    8200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C8
-U 1 1 5DD36E83
-P 8700 5600
-F 0 "C8" H 8791 5646 50  0000 L CNN
-F 1 "4.7uF" H 8791 5555 50  0000 L CNN
-F 2 "" H 8700 5600 50  0001 C CNN
-F 3 "~" H 8700 5600 50  0001 C CNN
-	1    8700 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C12
-U 1 1 5DD36E8D
-P 9200 5600
-F 0 "C12" H 9291 5646 50  0000 L CNN
-F 1 "4.7uF" H 9291 5555 50  0000 L CNN
-F 2 "" H 9200 5600 50  0001 C CNN
-F 3 "~" H 9200 5600 50  0001 C CNN
-	1    9200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C16
-U 1 1 5DD36E97
-P 9650 5600
-F 0 "C16" H 9741 5646 50  0000 L CNN
-F 1 "4.7uF" H 9741 5555 50  0000 L CNN
-F 2 "" H 9650 5600 50  0001 C CNN
-F 3 "~" H 9650 5600 50  0001 C CNN
-	1    9650 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 4700 9200 4700
-Connection ~ 8200 4700
-Wire Wire Line
-	8200 4700 8000 4700
-Connection ~ 8700 4700
-Wire Wire Line
-	8700 4700 8200 4700
-Connection ~ 9200 4700
-Wire Wire Line
-	9200 4700 8700 4700
-Wire Wire Line
-	8200 4900 8700 4900
-Connection ~ 8700 4900
-Wire Wire Line
-	8700 4900 9200 4900
-Connection ~ 9200 4900
-Wire Wire Line
-	9200 4900 9650 4900
-Connection ~ 9650 4900
-Wire Wire Line
-	9650 4900 10050 4900
-Wire Wire Line
-	9650 5100 9200 5100
 Wire Wire Line
 	8000 5100 8000 4700
-Connection ~ 8200 5100
-Wire Wire Line
-	8200 5100 8000 5100
-Connection ~ 8700 5100
-Wire Wire Line
-	8700 5100 8200 5100
-Connection ~ 9200 5100
-Wire Wire Line
-	9200 5100 8700 5100
-Wire Wire Line
-	9650 5500 9200 5500
 Wire Wire Line
 	8000 5500 8000 5100
-Connection ~ 8200 5500
-Wire Wire Line
-	8200 5500 8000 5500
-Connection ~ 8700 5500
-Wire Wire Line
-	8700 5500 8200 5500
-Connection ~ 9200 5500
-Wire Wire Line
-	9200 5500 8700 5500
 Connection ~ 8000 5100
-Wire Wire Line
-	8200 5700 8700 5700
-Connection ~ 8700 5700
-Wire Wire Line
-	8700 5700 9200 5700
-Connection ~ 9200 5700
-Wire Wire Line
-	9200 5700 9650 5700
-Connection ~ 9650 5700
-Wire Wire Line
-	9650 5700 10050 5700
-Wire Wire Line
-	8200 5300 8700 5300
-Connection ~ 8700 5300
-Wire Wire Line
-	8700 5300 9200 5300
-Connection ~ 9200 5300
-Wire Wire Line
-	9200 5300 9650 5300
-Connection ~ 9650 5300
-Wire Wire Line
-	9650 5300 10050 5300
 Wire Wire Line
 	10050 4900 10050 5300
 Connection ~ 10050 5300
@@ -999,29 +757,7 @@ Connection ~ 10050 5700
 Wire Wire Line
 	10050 5700 10050 5850
 Wire Wire Line
-	8200 4000 8700 4000
-Connection ~ 8700 4000
-Wire Wire Line
-	8700 4000 9200 4000
-Connection ~ 9200 4000
-Wire Wire Line
-	9200 4000 9650 4000
-Connection ~ 9650 4000
-Wire Wire Line
-	9650 4000 10050 4000
-Wire Wire Line
-	9650 3800 9200 3800
-Wire Wire Line
 	8000 3800 8000 3650
-Connection ~ 8200 3800
-Wire Wire Line
-	8200 3800 8000 3800
-Connection ~ 8700 3800
-Wire Wire Line
-	8700 3800 8200 3800
-Connection ~ 9200 3800
-Wire Wire Line
-	9200 3800 8700 3800
 Wire Wire Line
 	10050 4000 10050 4150
 Wire Wire Line
@@ -1091,10 +827,6 @@ Wire Notes Line
 	1100 550  6950 550 
 Text Notes 6950 650  2    50   Italic 10
 Crowbar Bus Signal and ID Pins
-Text Notes 9700 4300 2    50   Italic 10
-FIXME: CALCULATE ACTUAL CAP VALUES!
-Text Notes 9700 4400 2    50   Italic 10
-FIXME: DO WE *NEED* ELECTROLYTIC?
 Wire Wire Line
 	8950 2600 8950 2800
 Wire Wire Line
@@ -1701,6 +1433,270 @@ Text Label 3350 6900 2    50   ~ 0
 ADDR22
 Text Label 3350 7000 2    50   ~ 0
 ADDR23
+Wire Wire Line
+	8000 3800 8200 3800
+$Comp
+L Device:C_Small C?
+U 1 1 5DDF28E1
+P 8200 3900
+F 0 "C?" H 8292 3946 50  0000 L CNN
+F 1 "10nF" H 8292 3855 50  0000 L CNN
+F 2 "" H 8200 3900 50  0001 C CNN
+F 3 "~" H 8200 3900 50  0001 C CNN
+	1    8200 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 3800
+Wire Wire Line
+	8000 4700 8200 4700
+Wire Wire Line
+	8200 4900 8700 4900
+Wire Wire Line
+	8000 5100 8200 5100
+Wire Wire Line
+	8200 5300 8700 5300
+Wire Wire Line
+	8000 5500 8200 5500
+Wire Wire Line
+	8200 5700 8700 5700
+$Comp
+L Device:C_Small C?
+U 1 1 5DE9AEDB
+P 8700 3900
+F 0 "C?" H 8792 3946 50  0000 L CNN
+F 1 "10nF" H 8792 3855 50  0000 L CNN
+F 2 "" H 8700 3900 50  0001 C CNN
+F 3 "~" H 8700 3900 50  0001 C CNN
+	1    8700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DE9B27D
+P 9200 3900
+F 0 "C?" H 9292 3946 50  0000 L CNN
+F 1 "10nF" H 9292 3855 50  0000 L CNN
+F 2 "" H 9200 3900 50  0001 C CNN
+F 3 "~" H 9200 3900 50  0001 C CNN
+	1    9200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DE9B972
+P 9650 3900
+F 0 "C?" H 9742 3946 50  0000 L CNN
+F 1 "10nF" H 9742 3855 50  0000 L CNN
+F 2 "" H 9650 3900 50  0001 C CNN
+F 3 "~" H 9650 3900 50  0001 C CNN
+	1    9650 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 9650 4000
+Wire Wire Line
+	9650 4000 10050 4000
+Connection ~ 9200 3800
+Wire Wire Line
+	9200 3800 9650 3800
+Connection ~ 9200 4000
+Wire Wire Line
+	9200 4000 9650 4000
+Connection ~ 8700 3800
+Connection ~ 8700 4000
+Wire Wire Line
+	8200 3800 8700 3800
+Wire Wire Line
+	8200 4000 8700 4000
+Wire Wire Line
+	8700 3800 9200 3800
+Wire Wire Line
+	8700 4000 9200 4000
+$Comp
+L Device:C_Small C?
+U 1 1 5DE9CBC9
+P 8200 4800
+F 0 "C?" H 8292 4846 50  0000 L CNN
+F 1 "10nF" H 8292 4755 50  0000 L CNN
+F 2 "" H 8200 4800 50  0001 C CNN
+F 3 "~" H 8200 4800 50  0001 C CNN
+	1    8200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DE9CBD3
+P 8700 4800
+F 0 "C?" H 8792 4846 50  0000 L CNN
+F 1 "10nF" H 8792 4755 50  0000 L CNN
+F 2 "" H 8700 4800 50  0001 C CNN
+F 3 "~" H 8700 4800 50  0001 C CNN
+	1    8700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DE9CBDD
+P 9200 4800
+F 0 "C?" H 9292 4846 50  0000 L CNN
+F 1 "10nF" H 9292 4755 50  0000 L CNN
+F 2 "" H 9200 4800 50  0001 C CNN
+F 3 "~" H 9200 4800 50  0001 C CNN
+	1    9200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DE9CBE7
+P 9650 4800
+F 0 "C?" H 9742 4846 50  0000 L CNN
+F 1 "10nF" H 9742 4755 50  0000 L CNN
+F 2 "" H 9650 4800 50  0001 C CNN
+F 3 "~" H 9650 4800 50  0001 C CNN
+	1    9650 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 4700
+Wire Wire Line
+	8200 4700 8700 4700
+Connection ~ 8700 4700
+Wire Wire Line
+	8700 4700 9200 4700
+Connection ~ 8700 4900
+Wire Wire Line
+	8700 4900 9200 4900
+Connection ~ 9200 4700
+Wire Wire Line
+	9200 4700 9650 4700
+Connection ~ 9200 4900
+Wire Wire Line
+	9200 4900 9650 4900
+Connection ~ 9650 4900
+Wire Wire Line
+	9650 4900 10050 4900
+$Comp
+L Device:C_Small C?
+U 1 1 5DEB57A8
+P 8200 5200
+F 0 "C?" H 8292 5246 50  0000 L CNN
+F 1 "10nF" H 8292 5155 50  0000 L CNN
+F 2 "" H 8200 5200 50  0001 C CNN
+F 3 "~" H 8200 5200 50  0001 C CNN
+	1    8200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEB57B2
+P 8700 5200
+F 0 "C?" H 8792 5246 50  0000 L CNN
+F 1 "10nF" H 8792 5155 50  0000 L CNN
+F 2 "" H 8700 5200 50  0001 C CNN
+F 3 "~" H 8700 5200 50  0001 C CNN
+	1    8700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEB57BC
+P 9200 5200
+F 0 "C?" H 9292 5246 50  0000 L CNN
+F 1 "10nF" H 9292 5155 50  0000 L CNN
+F 2 "" H 9200 5200 50  0001 C CNN
+F 3 "~" H 9200 5200 50  0001 C CNN
+	1    9200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEB57C6
+P 9650 5200
+F 0 "C?" H 9742 5246 50  0000 L CNN
+F 1 "10nF" H 9742 5155 50  0000 L CNN
+F 2 "" H 9650 5200 50  0001 C CNN
+F 3 "~" H 9650 5200 50  0001 C CNN
+	1    9650 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 5100
+Wire Wire Line
+	8200 5100 8700 5100
+Connection ~ 8700 5100
+Wire Wire Line
+	8700 5100 9200 5100
+Connection ~ 8700 5300
+Wire Wire Line
+	8700 5300 9200 5300
+Connection ~ 9200 5100
+Wire Wire Line
+	9200 5100 9650 5100
+Connection ~ 9200 5300
+Wire Wire Line
+	9200 5300 9650 5300
+Connection ~ 9650 5300
+Wire Wire Line
+	9650 5300 10050 5300
+$Comp
+L Device:C_Small C?
+U 1 1 5DECE8B1
+P 8200 5600
+F 0 "C?" H 8292 5646 50  0000 L CNN
+F 1 "10nF" H 8292 5555 50  0000 L CNN
+F 2 "" H 8200 5600 50  0001 C CNN
+F 3 "~" H 8200 5600 50  0001 C CNN
+	1    8200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DECE8BB
+P 8700 5600
+F 0 "C?" H 8792 5646 50  0000 L CNN
+F 1 "10nF" H 8792 5555 50  0000 L CNN
+F 2 "" H 8700 5600 50  0001 C CNN
+F 3 "~" H 8700 5600 50  0001 C CNN
+	1    8700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DECE8C5
+P 9200 5600
+F 0 "C?" H 9292 5646 50  0000 L CNN
+F 1 "10nF" H 9292 5555 50  0000 L CNN
+F 2 "" H 9200 5600 50  0001 C CNN
+F 3 "~" H 9200 5600 50  0001 C CNN
+	1    9200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DECE8CF
+P 9650 5600
+F 0 "C?" H 9742 5646 50  0000 L CNN
+F 1 "10nF" H 9742 5555 50  0000 L CNN
+F 2 "" H 9650 5600 50  0001 C CNN
+F 3 "~" H 9650 5600 50  0001 C CNN
+	1    9650 5600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 5500
+Wire Wire Line
+	8200 5500 8700 5500
+Connection ~ 8700 5500
+Wire Wire Line
+	8700 5500 9200 5500
+Connection ~ 8700 5700
+Wire Wire Line
+	8700 5700 9200 5700
+Connection ~ 9200 5500
+Wire Wire Line
+	9200 5500 9650 5500
+Connection ~ 9200 5700
+Wire Wire Line
+	9200 5700 9650 5700
+Connection ~ 9650 5700
+Wire Wire Line
+	9650 5700 10050 5700
 Wire Bus Line
 	1450 1100 1450 1950
 Wire Bus Line

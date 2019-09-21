@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -152,8 +152,6 @@ F 3 "" H 2050 3600 50  0001 C CNN
 	1    2050 3600
 	-1   0    0    1   
 $EndComp
-Text HLabel 1950 3250 0    50   Input ~ 0
-5VSB
 $Comp
 L power:+12V #PWR0127
 U 1 1 5D8B31BA
@@ -180,94 +178,6 @@ F 2 "" H 6550 1450 50  0001 C CNN
 F 3 "" H 6550 1450 50  0001 C CNN
 	1    6550 1450
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C20
-U 1 1 5D90F670
-P 6750 2650
-F 0 "C20" V 6521 2650 50  0000 C CNN
-F 1 "0.1uF" V 6612 2650 50  0000 C CNN
-F 2 "" H 6750 2650 50  0001 C CNN
-F 3 "~" H 6750 2650 50  0001 C CNN
-	1    6750 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C21
-U 1 1 5D92D1C9
-P 6750 3000
-F 0 "C21" V 6521 3000 50  0000 C CNN
-F 1 "0.1uF" V 6612 3000 50  0000 C CNN
-F 2 "" H 6750 3000 50  0001 C CNN
-F 3 "~" H 6750 3000 50  0001 C CNN
-	1    6750 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C22
-U 1 1 5D92D8D1
-P 6750 3350
-F 0 "C22" V 6521 3350 50  0000 C CNN
-F 1 "0.1uF" V 6612 3350 50  0000 C CNN
-F 2 "" H 6750 3350 50  0001 C CNN
-F 3 "~" H 6750 3350 50  0001 C CNN
-	1    6750 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C23
-U 1 1 5D92DE52
-P 6750 3700
-F 0 "C23" V 6521 3700 50  0000 C CNN
-F 1 "0.1uF" V 6612 3700 50  0000 C CNN
-F 2 "" H 6750 3700 50  0001 C CNN
-F 3 "~" H 6750 3700 50  0001 C CNN
-	1    6750 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C24
-U 1 1 5D92E360
-P 6750 4050
-F 0 "C24" V 6521 4050 50  0000 C CNN
-F 1 "0.1uF" V 6612 4050 50  0000 C CNN
-F 2 "" H 6750 4050 50  0001 C CNN
-F 3 "~" H 6750 4050 50  0001 C CNN
-	1    6750 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C19
-U 1 1 5D934A00
-P 6750 2300
-F 0 "C19" V 6521 2300 50  0000 C CNN
-F 1 "0.1uF" V 6612 2300 50  0000 C CNN
-F 2 "" H 6750 2300 50  0001 C CNN
-F 3 "~" H 6750 2300 50  0001 C CNN
-	1    6750 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C18
-U 1 1 5D9352CA
-P 6750 1950
-F 0 "C18" V 6521 1950 50  0000 C CNN
-F 1 "0.1uF" V 6612 1950 50  0000 C CNN
-F 2 "" H 6750 1950 50  0001 C CNN
-F 3 "~" H 6750 1950 50  0001 C CNN
-	1    6750 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C17
-U 1 1 5D9356AD
-P 6750 1600
-F 0 "C17" H 6521 1600 50  0000 C CNN
-F 1 "0.1uF" V 6612 1600 50  0000 C CNN
-F 2 "" H 6750 1600 50  0001 C CNN
-F 3 "~" H 6750 1600 50  0001 C CNN
-	1    6750 1600
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0129
@@ -504,7 +414,7 @@ Wire Notes Line
 Text Notes 9750 1150 2    50   Italic 10
 eZ80 Power Rails
 Wire Notes Line
-	1400 5500 1400 1550
+	1400 5100 1400 1550
 Wire Notes Line
 	1400 1550 4050 1550
 Text Notes 4050 1650 2    50   Italic 10
@@ -605,30 +515,10 @@ Wire Wire Line
 	3750 3350 3750 3600
 Wire Wire Line
 	2050 3550 2050 3600
-$Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021 J2
-U 1 1 5DA90496
-P 2550 5200
-F 0 "J2" V 2549 5072 50  0000 R CNN
-F 1 "PWR" V 2640 5072 50  0000 R CNN
-F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 2750 5400 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 2750 5500 60  0001 L CNN
-F 4 "WM4200-ND" H 2750 5600 60  0001 L CNN "Digi-Key_PN"
-F 5 "22-23-2021" H 2750 5700 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 2750 5800 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 2750 5900 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 2750 6000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" H 2750 6100 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 2POS 2.54MM" H 2750 6200 60  0001 L CNN "Description"
-F 11 "Molex" H 2750 6300 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2750 6400 60  0001 L CNN "Status"
-	1    2550 5200
-	0    -1   1    0   
-$EndComp
 Wire Notes Line
-	4050 1550 4050 5500
+	4050 1550 4050 5100
 Wire Notes Line
-	1400 5500 4050 5500
+	1400 5100 4050 5100
 $Comp
 L Device:LED PWR_OK1
 U 1 1 5DAA2CBC
@@ -651,8 +541,6 @@ F 3 "~" H 2500 4650 50  0001 C CNN
 	1    2500 4650
 	-1   0    0    1   
 $EndComp
-Text Notes 3050 5350 0    50   ~ 0
-To ATX\npower switch
 Wire Wire Line
 	2350 4250 2050 4250
 Wire Wire Line
@@ -717,7 +605,7 @@ Wire Wire Line
 	3350 4650 3350 4800
 Connection ~ 3350 4650
 Wire Wire Line
-	3150 2750 3450 2750
+	3150 2750 3350 2750
 $Comp
 L power:GND #PWR0141
 U 1 1 5DA62D52
@@ -733,27 +621,6 @@ Wire Wire Line
 	3150 2650 3850 2650
 Wire Wire Line
 	3850 2650 3850 2700
-Text Label 3450 2750 2    50   ~ 0
-~PS_ON
-Text Label 2200 5300 0    50   ~ 0
-~PS_ON
-$Comp
-L power:GND #PWR0142
-U 1 1 5DB2739A
-P 2050 5200
-F 0 "#PWR0142" H 2050 4950 50  0001 C CNN
-F 1 "GND" V 2055 5072 50  0000 R CNN
-F 2 "" H 2050 5200 50  0001 C CNN
-F 3 "" H 2050 5200 50  0001 C CNN
-	1    2050 5200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 5300 2200 5300
-Wire Wire Line
-	2050 5200 2450 5200
-Text Notes 2000 5500 0    50   Italic 10
-FIXME: Is this how ATX does ~PS_ON?
 $Comp
 L power:+3.3V #PWR0151
 U 1 1 5DCA665F
@@ -838,4 +705,209 @@ Text Notes 5850 1500 2    50   Italic 10
 ERC Flags
 Wire Wire Line
 	7550 2950 7550 3050
+$Comp
+L Regulator_Linear:AZ1117-3.3 U?
+U 1 1 5D9A49ED
+P 2550 6400
+AR Path="/5D99435D/5D9A49ED" Ref="U?"  Part="1" 
+AR Path="/5D86D88B/5D9A49ED" Ref="U3"  Part="1" 
+F 0 "U3" H 2550 6642 50  0000 C CNN
+F 1 "AZ1117-3.3" H 2550 6551 50  0000 C CNN
+F 2 "" H 2550 6650 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 2550 6400 50  0001 C CNN
+	1    2550 6400
+	1    0    0    -1  
+$EndComp
+Text Label 1950 3250 0    50   ~ 0
+5VSB
+Text Label 1600 6400 0    50   ~ 0
+5VSB
+$Comp
+L power:GND #PWR04
+U 1 1 5D9B25B7
+P 2550 6800
+F 0 "#PWR04" H 2550 6550 50  0001 C CNN
+F 1 "GND" H 2555 6627 50  0000 C CNN
+F 2 "" H 2550 6800 50  0001 C CNN
+F 3 "" H 2550 6800 50  0001 C CNN
+	1    2550 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6700 2550 6800
+Text GLabel 3250 6400 2    50   Input ~ 0
++3V3SB
+Wire Notes Line
+	1400 5900 3650 5900
+Wire Notes Line
+	3650 5900 3650 7150
+Wire Notes Line
+	3650 7150 1400 7150
+Wire Notes Line
+	1400 7150 1400 5900
+Text Notes 3650 6000 2    50   Italic 10
+System Management +3V3 Standby
+Wire Wire Line
+	2850 6400 3000 6400
+Text HLabel 3350 2750 2    50   Input ~ 0
+~PS_ON
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5DC7B5E2
+P 1600 6400
+F 0 "#FLG0104" H 1600 6475 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 6573 50  0000 C CNN
+F 2 "" H 1600 6400 50  0001 C CNN
+F 3 "~" H 1600 6400 50  0001 C CNN
+	1    1600 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 6400 2000 6400
+$Comp
+L Device:C_Small C?
+U 1 1 5DCF8440
+P 2000 6600
+F 0 "C?" H 2092 6646 50  0000 L CNN
+F 1 "1.0uF" H 2092 6555 50  0000 L CNN
+F 2 "" H 2000 6600 50  0001 C CNN
+F 3 "~" H 2000 6600 50  0001 C CNN
+	1    2000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DCF8E1D
+P 3000 6600
+F 0 "C?" H 3092 6646 50  0000 L CNN
+F 1 "1.0uF" H 3092 6555 50  0000 L CNN
+F 2 "" H 3000 6600 50  0001 C CNN
+F 3 "~" H 3000 6600 50  0001 C CNN
+	1    3000 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6500 2000 6400
+Connection ~ 2000 6400
+Wire Wire Line
+	2000 6400 2250 6400
+Wire Wire Line
+	3000 6500 3000 6400
+Connection ~ 3000 6400
+Wire Wire Line
+	3000 6400 3250 6400
+$Comp
+L power:GND #PWR?
+U 1 1 5DD012B9
+P 2000 6800
+F 0 "#PWR?" H 2000 6550 50  0001 C CNN
+F 1 "GND" H 2005 6627 50  0000 C CNN
+F 2 "" H 2000 6800 50  0001 C CNN
+F 3 "" H 2000 6800 50  0001 C CNN
+	1    2000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD017FB
+P 3000 6800
+F 0 "#PWR?" H 3000 6550 50  0001 C CNN
+F 1 "GND" H 3005 6627 50  0000 C CNN
+F 2 "" H 3000 6800 50  0001 C CNN
+F 3 "" H 3000 6800 50  0001 C CNN
+	1    3000 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6800 2000 6700
+Wire Wire Line
+	3000 6800 3000 6700
+$Comp
+L Device:C_Small C?
+U 1 1 5DEEE6FB
+P 6750 1600
+F 0 "C?" V 6521 1600 50  0000 C CNN
+F 1 "10nF" V 6612 1600 50  0000 C CNN
+F 2 "" H 6750 1600 50  0001 C CNN
+F 3 "~" H 6750 1600 50  0001 C CNN
+	1    6750 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEEEA26
+P 6750 1950
+F 0 "C?" V 6521 1950 50  0000 C CNN
+F 1 "10nF" V 6612 1950 50  0000 C CNN
+F 2 "" H 6750 1950 50  0001 C CNN
+F 3 "~" H 6750 1950 50  0001 C CNN
+	1    6750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEF3F7C
+P 6750 2300
+F 0 "C?" V 6521 2300 50  0000 C CNN
+F 1 "10nF" V 6612 2300 50  0000 C CNN
+F 2 "" H 6750 2300 50  0001 C CNN
+F 3 "~" H 6750 2300 50  0001 C CNN
+	1    6750 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEF3F86
+P 6750 2650
+F 0 "C?" V 6521 2650 50  0000 C CNN
+F 1 "10nF" V 6612 2650 50  0000 C CNN
+F 2 "" H 6750 2650 50  0001 C CNN
+F 3 "~" H 6750 2650 50  0001 C CNN
+	1    6750 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEF8BFA
+P 6750 3000
+F 0 "C?" V 6521 3000 50  0000 C CNN
+F 1 "10nF" V 6612 3000 50  0000 C CNN
+F 2 "" H 6750 3000 50  0001 C CNN
+F 3 "~" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEF8C04
+P 6750 3350
+F 0 "C?" V 6521 3350 50  0000 C CNN
+F 1 "10nF" V 6612 3350 50  0000 C CNN
+F 2 "" H 6750 3350 50  0001 C CNN
+F 3 "~" H 6750 3350 50  0001 C CNN
+	1    6750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEF8C0E
+P 6750 3700
+F 0 "C?" V 6521 3700 50  0000 C CNN
+F 1 "10nF" V 6612 3700 50  0000 C CNN
+F 2 "" H 6750 3700 50  0001 C CNN
+F 3 "~" H 6750 3700 50  0001 C CNN
+	1    6750 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DEF8C18
+P 6750 4050
+F 0 "C?" V 6521 4050 50  0000 C CNN
+F 1 "10nF" V 6612 4050 50  0000 C CNN
+F 2 "" H 6750 4050 50  0001 C CNN
+F 3 "~" H 6750 4050 50  0001 C CNN
+	1    6750 4050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
