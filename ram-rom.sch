@@ -14,4 +14,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 9800 1550 2    50   Input ~ 0
+DATA[0..7]
+Text HLabel 9800 1650 2    50   Input ~ 0
+ADDR[0..23]
+Text HLabel 9800 1800 2    50   Input ~ 0
+~RD
+Text HLabel 9800 1900 2    50   Input ~ 0
+~WR
+Text HLabel 9800 2050 2    50   Input ~ 0
+~MREQ
+Text HLabel 9800 2150 2    50   Input ~ 0
+~IOREQ
+Text HLabel 9800 2300 2    50   Input ~ 0
+~RESET
+Text HLabel 9800 2400 2    50   Input ~ 0
+~WAIT
+Text HLabel 9800 2550 2    50   Input ~ 0
+~CS[0..3]
+Text HLabel 9800 2700 2    50   Input ~ 0
+PHI
 $EndSCHEMATC

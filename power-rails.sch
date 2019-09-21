@@ -694,15 +694,15 @@ F 3 "~" H 6450 7250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Notes Line
-	6800 6600 5350 6600
+	6800 6600 4850 6600
 Wire Notes Line
-	5350 6600 5350 7650
+	4850 6600 4850 7650
 Wire Notes Line
-	5350 7650 6800 7650
+	4850 7650 6800 7650
 Wire Notes Line
 	6800 7650 6800 6600
 Text Notes 6800 6700 2    50   Italic 10
-ERC Flags
+ERC Flags and Main Power Rails
 Wire Wire Line
 	5750 3350 5750 3450
 $Comp
@@ -910,4 +910,6 @@ F 3 "~" H 4950 4450 50  0001 C CNN
 	1    4950 4450
 	0    1    1    0   
 $EndComp
+Text GLabel 5150 7250 1    50   Input ~ 0
++3V3SB
 $EndSCHEMATC
