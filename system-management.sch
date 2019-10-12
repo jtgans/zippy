@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -75,7 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 2950 3100 2950
 Text HLabel 3100 2950 0    50   Input ~ 0
-PS_ON
+~PS_ON
 Wire Wire Line
 	9350 4250 8850 4250
 $Comp
@@ -303,11 +303,6 @@ SMC_SCL
 NoConn ~ 3350 4250
 Text GLabel 4800 2550 0    50   Input ~ 0
 +3V3SB
-NoConn ~ 3350 3550
-Wire Wire Line
-	3350 3650 3100 3650
-Text HLabel 3100 3650 0    50   Input ~ 0
-PWR_OK
 NoConn ~ 3350 3750
 Text Label 1800 2300 3    50   ~ 0
 SMC_POWER
@@ -479,4 +474,12 @@ Text Notes 9700 2150 2    50   Italic 10
 ISP Programming Header
 Text Notes 9700 4000 2    50   Italic 10
 ATX Front Panel Buttons
+Wire Wire Line
+	3100 3550 3350 3550
+Text HLabel 3100 3550 0    50   Input ~ 0
+~PWR_FAULT
+Text HLabel 3100 3650 0    50   Input ~ 0
+PWR_GD
+Wire Wire Line
+	3350 3650 3100 3650
 $EndSCHEMATC

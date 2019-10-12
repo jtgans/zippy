@@ -1,7 +1,6 @@
 (sym_lib_table
   (lib (name Zippy)(type Legacy)(uri ${KIPRJMOD}/Zippy.lib)(options "")(descr ""))
   (lib (name eZ80)(type Legacy)(uri ${KIPRJMOD}/EZ80L92AZ050SG.lib)(options "")(descr ""))
-  (lib (name ATX_Connector)(type Legacy)(uri ${KIPRJMOD}/1-1775099-3.lib)(options "")(descr ""))
   (lib (name dk_Addressable-Specialty)(type Legacy)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_Addressable-Specialty.lib)(options "")(descr ""))
   (lib (name dk_Alarms-Buzzers-and-Sirens)(type Legacy)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_Alarms-Buzzers-and-Sirens.lib)(options "")(descr ""))
   (lib (name dk_Automotive-Relays)(type Legacy)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_Automotive-Relays.lib)(options "")(descr ""))
@@ -152,4 +151,6 @@
   (lib (name dk_TVS-Diodes)(type Legacy)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib)(options "")(descr ""))
   (lib (name dk_TVS-Mixed-Technology)(type Legacy)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_TVS-Mixed-Technology.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+  (lib (name TPS3511DR)(type Legacy)(uri ${KIPRJMOD}/TPS3511DR.lib)(options "")(descr ""))
+  (lib (name AP1501A-33K5G-13)(type Legacy)(uri ${KIPRJMOD}/AP1501A-33K5G-13.lib)(options "")(descr ""))
 )
