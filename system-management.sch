@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Zippy-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -246,6 +246,7 @@ F 0 "J5" H 5180 2742 50  0000 L CNN
 F 1 "Conn_01x03" H 5180 2651 50  0000 L CNN
 F 2 "" H 5100 2700 50  0001 C CNN
 F 3 "~" H 5100 2700 50  0001 C CNN
+F 4 "NORM: 1+2, PROG: 2+3" H 5100 2700 50  0001 C CNN "Notes"
 	1    5100 2700
 	1    0    0    -1  
 $EndComp
@@ -253,8 +254,8 @@ Text Label 4400 2700 0    50   ~ 0
 SMC_POWER
 Text Label 4400 2800 0    50   ~ 0
 PROG_PWR
-Text Notes 4350 3050 0    50   Italic 0
-Jumper to control programming power.\nShort pins 1+2 for normal operation.
+Text Notes 4350 3100 0    50   Italic 0
+Jumper to control programming power.\nShort pins 1+2 for normal operation.\nLAYOUT: NOTE NORMAL PINS
 NoConn ~ 3350 3050
 NoConn ~ 3350 3150
 NoConn ~ 4150 3650
