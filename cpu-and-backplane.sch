@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -505,9 +505,9 @@ ZDI_TDI
 Text HLabel 4550 4250 2    50   Input ~ 0
 ~NMI
 Text HLabel 2400 4050 0    50   Input ~ 0
-CROWBAR_SCL
+SMC_SCL
 Text HLabel 2400 4150 0    50   Input ~ 0
-CROWBAR_SDA
+SMC_SDA
 Wire Notes Line
 	1450 800  6200 800 
 Wire Notes Line
@@ -561,11 +561,8 @@ NoConn ~ 2400 6300
 NoConn ~ 4600 5600
 NoConn ~ 4600 5700
 NoConn ~ 4600 5800
-NoConn ~ 4600 5900
 NoConn ~ 4600 6000
 NoConn ~ 4600 6100
-NoConn ~ 4600 6200
-NoConn ~ 4600 6300
 Text HLabel 4550 2950 2    50   Input ~ 0
 ~IOREQ
 Text HLabel 4550 3050 2    50   Input ~ 0
@@ -582,10 +579,22 @@ Text HLabel 4550 3950 2    50   Input ~ 0
 ~BUSREQ
 Text HLabel 4550 4050 2    50   Input ~ 0
 ~BUSACK
+Wire Wire Line
+	4600 5900 4850 5900
+Wire Wire Line
+	4600 6200 4850 6200
+Wire Wire Line
+	4600 6300 4850 6300
 Wire Bus Line
 	4700 2250 4700 2650
 Wire Bus Line
 	4700 1050 4700 2150
 Wire Bus Line
 	2150 1050 2150 3750
+Text HLabel 4850 5900 2    50   Input ~ 0
+SPI_SCLK
+Text HLabel 4850 6200 2    50   Input ~ 0
+SPI_MISO
+Text HLabel 4850 6300 2    50   Input ~ 0
+SPI_MOSI
 $EndSCHEMATC
