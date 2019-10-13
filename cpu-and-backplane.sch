@@ -585,16 +585,32 @@ Wire Wire Line
 	4600 6200 4850 6200
 Wire Wire Line
 	4600 6300 4850 6300
-Wire Bus Line
-	4700 2250 4700 2650
-Wire Bus Line
-	4700 1050 4700 2150
-Wire Bus Line
-	2150 1050 2150 3750
 Text HLabel 4850 5900 2    50   Input ~ 0
 SPI_SCLK
 Text HLabel 4850 6200 2    50   Input ~ 0
 SPI_MISO
 Text HLabel 4850 6300 2    50   Input ~ 0
 SPI_MOSI
+Text HLabel 7350 3400 2    50   Input ~ 0
+~IRQ0
+Text HLabel 7350 3500 2    50   Input ~ 0
+~IRQ1
+Text HLabel 7350 3600 2    50   Input ~ 0
+~IRQ2
+Text HLabel 7350 3700 2    50   Input ~ 0
+~IRQ3
+Text HLabel 7350 3950 2    50   Input ~ 0
+~SPI_SS0
+Text HLabel 7350 4050 2    50   Input ~ 0
+~SPI_SS1
+Text HLabel 7350 4150 2    50   Input ~ 0
+~SPI_SS2
+Text HLabel 7350 4250 2    50   Input ~ 0
+~SPI_SS3
+Wire Bus Line
+	4700 2250 4700 2650
+Wire Bus Line
+	4700 1050 4700 2150
+Wire Bus Line
+	2150 1050 2150 3750
 $EndSCHEMATC
