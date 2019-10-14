@@ -550,17 +550,8 @@ F 8 "Zilog" H 4000 6000 50  0001 L BNN "Field8"
 	4    4000 6000
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 2400 5600
-NoConn ~ 2400 5700
-NoConn ~ 2400 5800
-NoConn ~ 2400 5900
-NoConn ~ 2400 6000
-NoConn ~ 2400 6100
-NoConn ~ 2400 6200
-NoConn ~ 2400 6300
 NoConn ~ 4600 5600
 NoConn ~ 4600 5700
-NoConn ~ 4600 5800
 NoConn ~ 4600 6000
 NoConn ~ 4600 6100
 Text HLabel 4550 2950 2    50   Input ~ 0
@@ -580,33 +571,77 @@ Text HLabel 4550 3950 2    50   Input ~ 0
 Text HLabel 4550 4050 2    50   Input ~ 0
 ~BUSACK
 Wire Wire Line
-	4600 5900 4850 5900
+	4600 5900 4700 5900
 Wire Wire Line
-	4600 6200 4850 6200
+	4600 6200 4700 6200
 Wire Wire Line
-	4600 6300 4850 6300
-Text HLabel 4850 5900 2    50   Input ~ 0
+	4600 6300 4700 6300
+Text HLabel 4700 5900 2    50   Input ~ 0
 SPI_SCLK
-Text HLabel 4850 6200 2    50   Input ~ 0
+Text HLabel 4700 6200 2    50   Input ~ 0
 SPI_MISO
-Text HLabel 4850 6300 2    50   Input ~ 0
+Text HLabel 4700 6300 2    50   Input ~ 0
 SPI_MOSI
-Text HLabel 7350 3400 2    50   Input ~ 0
+Text HLabel 2300 5600 0    50   Input ~ 0
 ~IRQ0
-Text HLabel 7350 3500 2    50   Input ~ 0
+Text HLabel 2300 5700 0    50   Input ~ 0
 ~IRQ1
-Text HLabel 7350 3600 2    50   Input ~ 0
+Text HLabel 2300 5800 0    50   Input ~ 0
 ~IRQ2
-Text HLabel 7350 3700 2    50   Input ~ 0
+Text HLabel 2300 5900 0    50   Input ~ 0
 ~IRQ3
-Text HLabel 7350 3950 2    50   Input ~ 0
+Text HLabel 2300 6000 0    50   Input ~ 0
 ~SPI_SS0
-Text HLabel 7350 4050 2    50   Input ~ 0
+Text HLabel 2300 6100 0    50   Input ~ 0
 ~SPI_SS1
-Text HLabel 7350 4150 2    50   Input ~ 0
+Text HLabel 2300 6200 0    50   Input ~ 0
 ~SPI_SS2
-Text HLabel 7350 4250 2    50   Input ~ 0
+Text HLabel 2300 6300 0    50   Input ~ 0
 ~SPI_SS3
+Wire Wire Line
+	2400 5600 2300 5600
+Wire Wire Line
+	2400 5700 2300 5700
+Wire Wire Line
+	2400 5800 2300 5800
+Wire Wire Line
+	2400 5900 2300 5900
+Wire Wire Line
+	2400 6000 2300 6000
+Wire Wire Line
+	2400 6100 2300 6100
+Wire Wire Line
+	2400 6200 2300 6200
+Wire Wire Line
+	2400 6300 2300 6300
+Wire Wire Line
+	4600 5800 4900 5800
+Wire Wire Line
+	4900 5800 4900 5750
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DAD1D17
+P 4900 5650
+F 0 "R?" H 4968 5696 50  0000 L CNN
+F 1 "220" H 4968 5605 50  0000 L CNN
+F 2 "" H 4900 5650 50  0001 C CNN
+F 3 "~" H 4900 5650 50  0001 C CNN
+	1    4900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DAD60C5
+P 4900 5500
+F 0 "#PWR?" H 4900 5350 50  0001 C CNN
+F 1 "+3V3" H 4915 5673 50  0000 C CNN
+F 2 "" H 4900 5500 50  0001 C CNN
+F 3 "" H 4900 5500 50  0001 C CNN
+	1    4900 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5500 4900 5550
 Wire Bus Line
 	4700 2250 4700 2650
 Wire Bus Line
