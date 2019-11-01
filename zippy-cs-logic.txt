@@ -1,0 +1,48 @@
+Inputs
+@ 0.0ns swap01
+@ 0.0ns swap23
+@ 0.0ns ncs1
+@ 0.0ns ncs2
+@ 0.0ns ncs3
+@ 0.0ns a20
+@ 0.0ns a21
+@ 0.0ns a22
+@ 0.0ns a23
+
+Intermediates
+@ 2.8ns na20      = !a20
+@ 2.8ns na21      = !a21
+@ 2.8ns na22      = !a22
+@ 2.8ns na23      = !a23
+@ 2.8ns cs1       = !ncs1
+@ 3.0ns slot_cs   = !(ncs2 & ncs3 & 1)
+@ 6.0ns nslot_sel = !(slot_cs & a22 & a23)
+@ 8.8ns slot_sel  = !nslot_sel
+@ 2.8ns slot0_a20 = na20
+@ 0.0ns slot1_a20 =  a20
+@ 7.4ns slot2_a20 = na20 ^ swap23
+@ 4.6ns slot3_a20 =  a20 ^ swap23
+
+Outputs
+@ 0.0ns sram0_lb  =  a21
+@ 2.8ns sram0_ub  = na21
+@ 5.8ns sram0_ncs = !(cs1 & na22 & na23)
+@ 0.0ns sram1_lb  =  a21
+@ 2.8ns sram1_ub  = na21
+@ 5.8ns sram1_ncs = !(cs1 &  a22 & na23)
+@ 0.0ns sram2_lb  =  a21
+@ 2.8ns sram2_ub  = na21
+@ 5.8ns sram2_ncs = !(cs1 & na22 &  a23)
+
+@11.8ns slot_ncs0 = !(slot_sel & slot0_a20 & na21)
+@11.8ns slot_ncs1 = !(slot_sel & slot1_a20 & na21)
+@11.8ns slot_ncs2 = !(slot_sel & slot2_a20 &  a21)
+@11.8ns slot_ncs3 = !(slot_sel & slot3_a20 &  a21)
+
+6 NOT gates (2.8ns)
+9 NAND3 gates (3.0ns)
+2 XOR2 gates (4.6ns)
+
+1x SN74ALVC04 Hex inverter
+3x SN74ALVC10 Triple 3-input positive-NAND gate
+1x SN74LVC86ADR Quad 2-input XOR gate

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -104,14 +104,10 @@ Text HLabel 3500 5350 3    50   Input ~ 0
 ~MREQ
 Text HLabel 3600 5350 3    50   Input ~ 0
 ~IOREQ
-Text HLabel 3800 5350 3    50   Input ~ 0
+Text HLabel 3800 5300 3    50   Input ~ 0
 ~BUSREQ
-Text HLabel 3900 5350 3    50   Input ~ 0
+Text HLabel 3900 5300 3    50   Input ~ 0
 ~BUSACK
-Text HLabel 4100 5350 3    50   Input ~ 0
-~IRQ0
-Text HLabel 4200 5350 3    50   Input ~ 0
-~IRQ1
 Text HLabel 5600 5350 3    50   Input ~ 0
 CROWBAR_SDA
 Text HLabel 5700 5350 3    50   Input ~ 0
@@ -263,26 +259,12 @@ Text Label 4500 3750 3    50   ~ 0
 ADDR22
 Text Label 4600 3750 3    50   ~ 0
 ADDR23
-Text Label 4700 5900 1    50   ~ 0
-~CS3
-Entry Wire Line
-	4700 5950 4600 6050
-Wire Bus Line
-	4600 6050 4450 6050
-Text HLabel 4450 6050 0    50   Input ~ 0
-~CS[0..3]
-Wire Wire Line
-	4700 5950 4700 5150
 $Sheet
-S 2400 7000 1100 150 
+S 3350 6900 1100 150 
 U 5DAD3B05
 F0 "Crowbar Power Rails" 50
 F1 "crowbar-power.sch" 50
 $EndSheet
-Text HLabel 4300 5350 3    50   Input ~ 0
-~IRQ2
-Text HLabel 4400 5350 3    50   Input ~ 0
-~IRQ3
 Wire Wire Line
 	3200 5150 3200 5350
 Wire Wire Line
@@ -292,17 +274,17 @@ Wire Wire Line
 Wire Wire Line
 	3600 5150 3600 5350
 Wire Wire Line
-	3800 5150 3800 5350
+	3800 5150 3800 5300
 Wire Wire Line
-	3900 5150 3900 5350
+	3900 5150 3900 5300
 Wire Wire Line
-	4100 5150 4100 5350
+	4100 5150 4100 5800
 Wire Wire Line
-	4200 5150 4200 5350
+	4200 5150 4200 5800
 Wire Wire Line
-	4300 5150 4300 5350
+	4300 5150 4300 5800
 Wire Wire Line
-	4400 5150 4400 5350
+	4400 5150 4400 5800
 Wire Wire Line
 	5600 5150 5600 5350
 Wire Wire Line
@@ -313,22 +295,6 @@ Wire Wire Line
 	5700 3950 5700 4150
 Wire Wire Line
 	4600 5350 4600 5150
-Text HLabel 4900 3950 1    50   Input ~ 0
-~SPI_SS0
-Text HLabel 5000 3950 1    50   Input ~ 0
-~SPI_SS1
-Text HLabel 5100 3950 1    50   Input ~ 0
-~SPI_SS2
-Text HLabel 5200 3950 1    50   Input ~ 0
-~SPI_SS3
-Wire Wire Line
-	4900 4150 4900 3950
-Wire Wire Line
-	5000 4150 5000 3950
-Wire Wire Line
-	5100 4150 5100 3950
-Wire Wire Line
-	5200 4150 5200 3950
 Text HLabel 4900 5350 3    50   Input ~ 0
 SPI_MISO
 Text HLabel 5000 5350 3    50   Input ~ 0
@@ -435,10 +401,6 @@ Text HLabel 3750 2750 3    50   Input ~ 0
 ~BUSREQ
 Text HLabel 3850 2750 3    50   Input ~ 0
 ~BUSACK
-Text HLabel 4050 2750 3    50   Input ~ 0
-~IRQ0
-Text HLabel 4150 2750 3    50   Input ~ 0
-~IRQ1
 Text HLabel 5550 2750 3    50   Input ~ 0
 CROWBAR_SDA
 Text HLabel 5650 2750 3    50   Input ~ 0
@@ -590,20 +552,6 @@ Text Label 4450 1150 3    50   ~ 0
 ADDR22
 Text Label 4550 1150 3    50   ~ 0
 ADDR23
-Text Label 4650 3300 1    50   ~ 0
-~CS3
-Entry Wire Line
-	4650 3350 4550 3450
-Wire Bus Line
-	4550 3450 4400 3450
-Text HLabel 4400 3450 0    50   Input ~ 0
-~CS[0..3]
-Wire Wire Line
-	4650 3350 4650 2550
-Text HLabel 4250 2750 3    50   Input ~ 0
-~IRQ2
-Text HLabel 4350 2750 3    50   Input ~ 0
-~IRQ3
 Wire Wire Line
 	3150 2550 3150 2750
 Wire Wire Line
@@ -617,14 +565,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 2550 3850 2750
 Wire Wire Line
-	4050 2550 4050 2750
-Wire Wire Line
-	4150 2550 4150 2750
-Wire Wire Line
-	4250 2550 4250 2750
-Wire Wire Line
-	4350 2550 4350 2750
-Wire Wire Line
 	5550 2550 5550 2750
 Wire Wire Line
 	5650 2550 5650 2750
@@ -634,22 +574,6 @@ Wire Wire Line
 	5650 1350 5650 1550
 Wire Wire Line
 	4550 2750 4550 2550
-Text HLabel 4850 1350 1    50   Input ~ 0
-~SPI_SS0
-Text HLabel 4950 1350 1    50   Input ~ 0
-~SPI_SS1
-Text HLabel 5050 1350 1    50   Input ~ 0
-~SPI_SS2
-Text HLabel 5150 1350 1    50   Input ~ 0
-~SPI_SS3
-Wire Wire Line
-	4850 1550 4850 1350
-Wire Wire Line
-	4950 1550 4950 1350
-Wire Wire Line
-	5050 1550 5050 1350
-Wire Wire Line
-	5150 1550 5150 1350
 Text HLabel 4850 2750 3    50   Input ~ 0
 SPI_MISO
 Text HLabel 4950 2750 3    50   Input ~ 0
@@ -756,10 +680,6 @@ Text HLabel 8300 5350 3    50   Input ~ 0
 ~BUSREQ
 Text HLabel 8400 5350 3    50   Input ~ 0
 ~BUSACK
-Text HLabel 8600 5350 3    50   Input ~ 0
-~IRQ0
-Text HLabel 8700 5350 3    50   Input ~ 0
-~IRQ1
 Text HLabel 10100 5350 3    50   Input ~ 0
 CROWBAR_SDA
 Text HLabel 10200 5350 3    50   Input ~ 0
@@ -898,20 +818,6 @@ Text Label 9000 3750 3    50   ~ 0
 ADDR22
 Text Label 9100 3750 3    50   ~ 0
 ADDR23
-Text Label 9200 5900 1    50   ~ 0
-~CS3
-Entry Wire Line
-	9200 5950 9100 6050
-Wire Bus Line
-	9100 6050 8950 6050
-Text HLabel 8950 6050 0    50   Input ~ 0
-~CS[0..3]
-Wire Wire Line
-	9200 5950 9200 5150
-Text HLabel 8800 5350 3    50   Input ~ 0
-~IRQ2
-Text HLabel 8900 5350 3    50   Input ~ 0
-~IRQ3
 Wire Wire Line
 	7700 5150 7700 5350
 Wire Wire Line
@@ -925,14 +831,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 5150 8400 5350
 Wire Wire Line
-	8600 5150 8600 5350
-Wire Wire Line
-	8700 5150 8700 5350
-Wire Wire Line
-	8800 5150 8800 5350
-Wire Wire Line
-	8900 5150 8900 5350
-Wire Wire Line
 	10100 5150 10100 5350
 Wire Wire Line
 	10200 5150 10200 5350
@@ -942,22 +840,6 @@ Wire Wire Line
 	10200 3950 10200 4150
 Wire Wire Line
 	9100 5350 9100 5150
-Text HLabel 9400 3950 1    50   Input ~ 0
-~SPI_SS0
-Text HLabel 9500 3950 1    50   Input ~ 0
-~SPI_SS1
-Text HLabel 9600 3950 1    50   Input ~ 0
-~SPI_SS2
-Text HLabel 9700 3950 1    50   Input ~ 0
-~SPI_SS3
-Wire Wire Line
-	9400 4150 9400 3950
-Wire Wire Line
-	9500 4150 9500 3950
-Wire Wire Line
-	9600 4150 9600 3950
-Wire Wire Line
-	9700 4150 9700 3950
 Text HLabel 9400 5350 3    50   Input ~ 0
 SPI_MISO
 Text HLabel 9500 5350 3    50   Input ~ 0
@@ -1064,10 +946,6 @@ Text HLabel 8300 2750 3    50   Input ~ 0
 ~BUSREQ
 Text HLabel 8400 2750 3    50   Input ~ 0
 ~BUSACK
-Text HLabel 8600 2750 3    50   Input ~ 0
-~IRQ0
-Text HLabel 8700 2750 3    50   Input ~ 0
-~IRQ1
 Text HLabel 10100 2750 3    50   Input ~ 0
 CROWBAR_SDA
 Text HLabel 10200 2750 3    50   Input ~ 0
@@ -1206,20 +1084,6 @@ Text Label 9000 1150 3    50   ~ 0
 ADDR22
 Text Label 9100 1150 3    50   ~ 0
 ADDR23
-Text Label 9200 3300 1    50   ~ 0
-~CS3
-Entry Wire Line
-	9200 3350 9100 3450
-Wire Bus Line
-	9100 3450 8950 3450
-Text HLabel 8950 3450 0    50   Input ~ 0
-~CS[0..3]
-Wire Wire Line
-	9200 3350 9200 2550
-Text HLabel 8800 2750 3    50   Input ~ 0
-~IRQ2
-Text HLabel 8900 2750 3    50   Input ~ 0
-~IRQ3
 Wire Wire Line
 	7700 2550 7700 2750
 Wire Wire Line
@@ -1233,14 +1097,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 2550 8400 2750
 Wire Wire Line
-	8600 2550 8600 2750
-Wire Wire Line
-	8700 2550 8700 2750
-Wire Wire Line
-	8800 2550 8800 2750
-Wire Wire Line
-	8900 2550 8900 2750
-Wire Wire Line
 	10100 2550 10100 2750
 Wire Wire Line
 	10200 2550 10200 2750
@@ -1250,22 +1106,6 @@ Wire Wire Line
 	10200 1350 10200 1550
 Wire Wire Line
 	9100 2750 9100 2550
-Text HLabel 9400 1350 1    50   Input ~ 0
-~SPI_SS0
-Text HLabel 9500 1350 1    50   Input ~ 0
-~SPI_SS1
-Text HLabel 9600 1350 1    50   Input ~ 0
-~SPI_SS2
-Text HLabel 9700 1350 1    50   Input ~ 0
-~SPI_SS3
-Wire Wire Line
-	9400 1550 9400 1350
-Wire Wire Line
-	9500 1550 9500 1350
-Wire Wire Line
-	9600 1550 9600 1350
-Wire Wire Line
-	9700 1550 9700 1350
 Text HLabel 9400 2750 3    50   Input ~ 0
 SPI_MISO
 Text HLabel 9500 2750 3    50   Input ~ 0
@@ -1323,8 +1163,6 @@ Wire Notes Line
 	1250 6300 10450 6300
 Wire Notes Line
 	10450 6300 10450 750 
-Text Notes 10450 850  2    50   Italic 10
-Crowbar Slot Connectors
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5DF7A2A5
@@ -1377,63 +1215,323 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R?
 U 1 1 5E10A85A
-P 4650 7100
-F 0 "R?" V 4445 7100 50  0000 C CNN
-F 1 "2KΩ" V 4536 7100 50  0000 C CNN
-F 2 "" H 4650 7100 50  0001 C CNN
-F 3 "~" H 4650 7100 50  0001 C CNN
-	1    4650 7100
+P 5700 7100
+F 0 "R?" V 5495 7100 50  0000 C CNN
+F 1 "2KΩ" V 5586 7100 50  0000 C CNN
+F 2 "" H 5700 7100 50  0001 C CNN
+F 3 "~" H 5700 7100 50  0001 C CNN
+	1    5700 7100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 5E10B8C9
-P 4650 7450
-F 0 "R?" V 4445 7450 50  0000 C CNN
-F 1 "2KΩ" V 4536 7450 50  0000 C CNN
-F 2 "" H 4650 7450 50  0001 C CNN
-F 3 "~" H 4650 7450 50  0001 C CNN
-	1    4650 7450
+P 5700 7450
+F 0 "R?" V 5495 7450 50  0000 C CNN
+F 1 "2KΩ" V 5586 7450 50  0000 C CNN
+F 2 "" H 5700 7450 50  0001 C CNN
+F 3 "~" H 5700 7450 50  0001 C CNN
+	1    5700 7450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4750 7100 5050 7100
+	5800 7100 6100 7100
 Wire Wire Line
-	4750 7450 5050 7450
+	5800 7450 6100 7450
 Wire Wire Line
-	4550 7100 4200 7100
+	5600 7100 5250 7100
 Wire Wire Line
-	4200 7100 4200 6900
+	5250 7100 5250 6900
 Wire Wire Line
-	4550 7450 4200 7450
+	5600 7450 5250 7450
 Wire Wire Line
-	4200 7450 4200 7100
-Connection ~ 4200 7100
+	5250 7450 5250 7100
+Connection ~ 5250 7100
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E16DCD5
-P 4200 6900
-F 0 "#PWR?" H 4200 6750 50  0001 C CNN
-F 1 "+3V3" H 4215 7073 50  0000 C CNN
-F 2 "" H 4200 6900 50  0001 C CNN
-F 3 "" H 4200 6900 50  0001 C CNN
-	1    4200 6900
+P 5250 6900
+F 0 "#PWR?" H 5250 6750 50  0001 C CNN
+F 1 "+3V3" H 5265 7073 50  0000 C CNN
+F 2 "" H 5250 6900 50  0001 C CNN
+F 3 "" H 5250 6900 50  0001 C CNN
+	1    5250 6900
 	1    0    0    -1  
 $EndComp
-Text HLabel 5050 7100 2    50   Input ~ 0
+Text HLabel 6100 7100 2    50   Input ~ 0
 CROWBAR_SDA
 Wire Notes Line
-	3950 6500 3950 7700
+	5000 6500 5000 7700
 Wire Notes Line
-	3950 7700 5850 7700
+	5000 7700 6900 7700
 Wire Notes Line
-	5850 7700 5850 6500
+	6900 7700 6900 6500
 Wire Notes Line
-	5850 6500 3950 6500
-Text Notes 5850 6600 2    50   Italic 10
+	6900 6500 5000 6500
+Text Notes 6900 6600 2    50   Italic 10
 I2C Pullups
-Text HLabel 5050 7450 2    50   Input ~ 0
+Text HLabel 6100 7450 2    50   Input ~ 0
 CROWBAR_SCL
+Text Label 4900 3750 3    50   ~ 0
+~SPI_SS0
+Text Label 5000 3750 3    50   ~ 0
+~SPI_SS1
+Text Label 5100 3750 3    50   ~ 0
+~SPI_SS2
+Text Label 5200 3750 3    50   ~ 0
+~SPI_SS3
+Entry Wire Line
+	4800 3550 4900 3650
+Entry Wire Line
+	4900 3550 5000 3650
+Entry Wire Line
+	5000 3550 5100 3650
+Entry Wire Line
+	5100 3550 5200 3650
+Wire Wire Line
+	4900 3650 4900 4150
+Wire Wire Line
+	5000 3650 5000 4150
+Wire Wire Line
+	5100 3650 5100 4150
+Wire Wire Line
+	5200 3650 5200 4150
+Text HLabel 4700 3550 0    50   Input ~ 0
+~SPI_SS[0..3]
+Text Label 4850 1150 3    50   ~ 0
+~SPI_SS0
+Text Label 4950 1150 3    50   ~ 0
+~SPI_SS1
+Text Label 5050 1150 3    50   ~ 0
+~SPI_SS2
+Text Label 5150 1150 3    50   ~ 0
+~SPI_SS3
+Entry Wire Line
+	4750 950  4850 1050
+Entry Wire Line
+	4850 950  4950 1050
+Entry Wire Line
+	4950 950  5050 1050
+Entry Wire Line
+	5050 950  5150 1050
+Wire Wire Line
+	4850 1050 4850 1550
+Wire Wire Line
+	4950 1050 4950 1550
+Wire Wire Line
+	5050 1050 5050 1550
+Wire Wire Line
+	5150 1050 5150 1550
+Text HLabel 4650 950  0    50   Input ~ 0
+~SPI_SS[0..3]
+Text Label 9400 1150 3    50   ~ 0
+~SPI_SS0
+Text Label 9500 1150 3    50   ~ 0
+~SPI_SS1
+Text Label 9600 1150 3    50   ~ 0
+~SPI_SS2
+Text Label 9700 1150 3    50   ~ 0
+~SPI_SS3
+Entry Wire Line
+	9300 950  9400 1050
+Entry Wire Line
+	9400 950  9500 1050
+Entry Wire Line
+	9500 950  9600 1050
+Entry Wire Line
+	9600 950  9700 1050
+Wire Wire Line
+	9400 1050 9400 1550
+Wire Wire Line
+	9500 1050 9500 1550
+Wire Wire Line
+	9600 1050 9600 1550
+Wire Wire Line
+	9700 1050 9700 1550
+Text HLabel 9200 950  0    50   Input ~ 0
+~SPI_SS[0..3]
+Text Label 9400 3750 3    50   ~ 0
+~SPI_SS0
+Text Label 9500 3750 3    50   ~ 0
+~SPI_SS1
+Text Label 9600 3750 3    50   ~ 0
+~SPI_SS2
+Text Label 9700 3750 3    50   ~ 0
+~SPI_SS3
+Entry Wire Line
+	9300 3550 9400 3650
+Entry Wire Line
+	9400 3550 9500 3650
+Entry Wire Line
+	9500 3550 9600 3650
+Entry Wire Line
+	9600 3550 9700 3650
+Wire Wire Line
+	9400 3650 9400 4150
+Wire Wire Line
+	9500 3650 9500 4150
+Wire Wire Line
+	9600 3650 9600 4150
+Wire Wire Line
+	9700 3650 9700 4150
+Text HLabel 9200 3550 0    50   Input ~ 0
+~SPI_SS[0..3]
+Text HLabel 3950 5900 0    50   Input ~ 0
+~IRQ[0..3]
+Text Label 4100 5750 1    50   ~ 0
+~IRQ0
+Text Label 4200 5750 1    50   ~ 0
+~IRQ1
+Text Label 4300 5750 1    50   ~ 0
+~IRQ2
+Text Label 4400 5750 1    50   ~ 0
+~IRQ3
+Entry Wire Line
+	4000 5900 4100 5800
+Entry Wire Line
+	4100 5900 4200 5800
+Entry Wire Line
+	4200 5900 4300 5800
+Entry Wire Line
+	4300 5900 4400 5800
+Wire Wire Line
+	4050 2550 4050 3150
+Wire Wire Line
+	4150 2550 4150 3150
+Wire Wire Line
+	4250 2550 4250 3150
+Wire Wire Line
+	4350 2550 4350 3150
+Text HLabel 3900 3250 0    50   Input ~ 0
+~IRQ[0..3]
+Text Label 4050 3050 1    50   ~ 0
+~IRQ0
+Text Label 4150 3050 1    50   ~ 0
+~IRQ1
+Text Label 4250 3050 1    50   ~ 0
+~IRQ2
+Text Label 4350 3050 1    50   ~ 0
+~IRQ3
+Entry Wire Line
+	3950 3250 4050 3150
+Entry Wire Line
+	4050 3250 4150 3150
+Entry Wire Line
+	4150 3250 4250 3150
+Entry Wire Line
+	4250 3250 4350 3150
+Wire Wire Line
+	8600 5150 8600 5800
+Wire Wire Line
+	8700 5150 8700 5800
+Wire Wire Line
+	8800 5150 8800 5800
+Wire Wire Line
+	8900 5150 8900 5800
+Text HLabel 8450 5900 0    50   Input ~ 0
+~IRQ[0..3]
+Text Label 8600 5750 1    50   ~ 0
+~IRQ0
+Text Label 8700 5750 1    50   ~ 0
+~IRQ1
+Text Label 8800 5750 1    50   ~ 0
+~IRQ2
+Text Label 8900 5750 1    50   ~ 0
+~IRQ3
+Entry Wire Line
+	8500 5900 8600 5800
+Entry Wire Line
+	8600 5900 8700 5800
+Entry Wire Line
+	8700 5900 8800 5800
+Entry Wire Line
+	8800 5900 8900 5800
+Wire Wire Line
+	8600 2550 8600 3150
+Wire Wire Line
+	8700 2550 8700 3150
+Wire Wire Line
+	8800 2550 8800 3150
+Wire Wire Line
+	8900 2550 8900 3150
+Text HLabel 8450 3250 0    50   Input ~ 0
+~IRQ[0..3]
+Text Label 8600 3050 1    50   ~ 0
+~IRQ0
+Text Label 8700 3050 1    50   ~ 0
+~IRQ1
+Text Label 8800 3050 1    50   ~ 0
+~IRQ2
+Text Label 8900 3050 1    50   ~ 0
+~IRQ3
+Entry Wire Line
+	8500 3250 8600 3150
+Entry Wire Line
+	8600 3250 8700 3150
+Entry Wire Line
+	8700 3250 8800 3150
+Entry Wire Line
+	8800 3250 8900 3150
+Wire Wire Line
+	4650 2550 4650 3100
+Text Label 4650 3100 1    50   ~ 0
+~SLOT_CS0
+Wire Wire Line
+	4700 5150 4700 5700
+Text Label 4700 5700 1    50   ~ 0
+~SLOT_CS1
+Wire Wire Line
+	9200 2550 9200 3100
+Text Label 9200 3100 1    50   ~ 0
+~SLOT_CS2
+Wire Wire Line
+	9200 5150 9200 5700
+Text Label 9200 5700 1    50   ~ 0
+~SLOT_CS3
+Wire Wire Line
+	2300 6750 2300 7150
+Wire Wire Line
+	2400 6750 2400 7150
+Wire Wire Line
+	2500 6750 2500 7150
+Wire Wire Line
+	2600 6750 2600 7150
+Text HLabel 2150 7250 0    50   Input ~ 0
+~SLOT_CS[0..3]
+Text Label 2300 7100 1    50   ~ 0
+~SLOT_CS0
+Text Label 2400 7100 1    50   ~ 0
+~SLOT_CS1
+Text Label 2500 7100 1    50   ~ 0
+~SLOT_CS2
+Text Label 2600 7100 1    50   ~ 0
+~SLOT_CS3
+Entry Wire Line
+	2200 7250 2300 7150
+Entry Wire Line
+	2300 7250 2400 7150
+Entry Wire Line
+	2400 7250 2500 7150
+Entry Wire Line
+	2500 7250 2600 7150
+Wire Bus Line
+	4700 3550 5100 3550
+Wire Bus Line
+	4650 950  5050 950 
+Wire Bus Line
+	9200 950  9600 950 
+Wire Bus Line
+	9200 3550 9600 3550
+Wire Bus Line
+	3950 5900 4300 5900
+Wire Bus Line
+	3900 3250 4250 3250
+Wire Bus Line
+	8450 5900 8800 5900
+Wire Bus Line
+	8450 3250 8800 3250
+Wire Bus Line
+	2150 7250 2500 7250
 Wire Bus Line
 	2050 5650 2900 5650
 Wire Bus Line

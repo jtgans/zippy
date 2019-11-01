@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -14,28 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1100 650  0    50   Input ~ 0
-DATA[0..7]
-Text HLabel 1100 750  0    50   Input ~ 0
-ADDR[0..23]
-Text HLabel 1100 900  0    50   Input ~ 0
-~RD
-Text HLabel 1100 1000 0    50   Input ~ 0
-~WR
-Text HLabel 1100 1150 0    50   Input ~ 0
-~MREQ
-Text HLabel 1100 1250 0    50   Input ~ 0
-~IOREQ
-Text HLabel 1100 1400 0    50   Input ~ 0
-~RESET
-Text HLabel 1100 1500 0    50   Input ~ 0
-~WAIT
-Text HLabel 1100 1650 0    50   Input ~ 0
-~CS[0..3]
-Text HLabel 1100 1800 0    50   Input ~ 0
-PHI
-Text HLabel 1100 1950 0    50   Input ~ 0
-~INSTRD
 $Comp
 L Zippy:IS61-64WV204816BLL U?
 U 1 1 5DA65D36
@@ -771,16 +749,277 @@ Text Label 7750 3600 0    50   ~ 0
 ADDR19
 Text Label 7750 3700 0    50   ~ 0
 ADDR20
+Wire Wire Line
+	2950 3900 2500 3900
+Wire Wire Line
+	2950 4000 2500 4000
+Wire Wire Line
+	5600 3900 5150 3900
+Wire Wire Line
+	5600 4000 5150 4000
+Wire Wire Line
+	8100 3900 7650 3900
+Wire Wire Line
+	8100 4000 7650 4000
+Wire Wire Line
+	4300 3400 3850 3400
+Wire Wire Line
+	6950 3400 6500 3400
+Wire Wire Line
+	9450 3400 9000 3400
+Text Label 2500 3900 0    50   ~ 0
+SRAM0_UB
+Text Label 2500 4000 0    50   ~ 0
+SRAM0_LB
+Text Label 5150 3900 0    50   ~ 0
+SRAM1_UB
+Text Label 5150 4000 0    50   ~ 0
+SRAM1_LB
+Text Label 7650 3900 0    50   ~ 0
+SRAM2_UB
+Text Label 7650 4000 0    50   ~ 0
+SRAM2_LB
+Text Label 4300 3400 2    50   ~ 0
+~SRAM0_CS
+Text Label 6950 3400 2    50   ~ 0
+~SRAM1_CS
+Text Label 9450 3400 2    50   ~ 0
+~SRAM2_CS
+$Comp
+L Zippy:SN74ALVC10 U?
+U 3 1 5E6C593E
+P 2550 6000
+AR Path="/5DCC6C4D/5E6C593E" Ref="U?"  Part="3" 
+AR Path="/5E0F773C/5E6C593E" Ref="U?"  Part="3" 
+F 0 "U?" H 2575 6183 50  0000 C CNN
+F 1 "SN74ALVC10" H 2550 6250 50  0001 C CNN
+F 2 "" H 2550 6150 50  0001 C CNN
+F 3 "" H 2550 6150 50  0001 C CNN
+	3    2550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zippy:SN74ALVC10 U?
+U 1 1 5E6C5944
+P 2550 6400
+AR Path="/5DCC6C4D/5E6C5944" Ref="U?"  Part="1" 
+AR Path="/5E0F773C/5E6C5944" Ref="U?"  Part="1" 
+F 0 "U?" H 2575 6583 50  0000 C CNN
+F 1 "SN74ALVC10" H 2550 6650 50  0001 C CNN
+F 2 "" H 2550 6550 50  0001 C CNN
+F 3 "" H 2550 6550 50  0001 C CNN
+	1    2550 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zippy:SN74ALVC10 U?
+U 2 1 5E6C594A
+P 2550 6800
+AR Path="/5DCC6C4D/5E6C594A" Ref="U?"  Part="2" 
+AR Path="/5E0F773C/5E6C594A" Ref="U?"  Part="2" 
+F 0 "U?" H 2575 6983 50  0000 C CNN
+F 1 "SN74ALVC10" H 2550 7050 50  0001 C CNN
+F 2 "" H 2550 6950 50  0001 C CNN
+F 3 "" H 2550 6950 50  0001 C CNN
+	2    2550 6800
+	1    0    0    -1  
+$EndComp
+Text Label 1900 5150 0    50   ~ 0
+ADDR21
+Text Label 1900 5250 0    50   ~ 0
+~ADDR21
+Text Label 1900 5350 0    50   ~ 0
+ADDR21
+Text Label 1900 5450 0    50   ~ 0
+~ADDR21
+Text Label 1900 5550 0    50   ~ 0
+ADDR21
+Text Label 1900 5650 0    50   ~ 0
+~ADDR21
+Wire Wire Line
+	2350 5900 1800 5900
+Wire Wire Line
+	2350 6000 1900 6000
+Wire Wire Line
+	2350 6100 1900 6100
+Wire Wire Line
+	2350 6400 1900 6400
+Wire Wire Line
+	2350 6500 1900 6500
+Wire Wire Line
+	2350 6800 1900 6800
+Wire Wire Line
+	2350 6900 1900 6900
+Text Label 1900 6000 0    50   ~ 0
+~ADDR22
+Text Label 1900 6100 0    50   ~ 0
+~ADDR23
+Text Label 1900 6400 0    50   ~ 0
+ADDR22
+Text Label 1900 6500 0    50   ~ 0
+~ADDR23
+Text Label 1900 6800 0    50   ~ 0
+~ADDR22
+Text Label 1900 6900 0    50   ~ 0
+ADDR23
+Wire Notes Line
+	5550 4600 5550 7300
+Wire Notes Line
+	5550 7300 650  7300
+Wire Notes Line
+	650  7300 650  4600
+Wire Notes Line
+	650  4600 5550 4600
+Text Notes 5550 4700 2    50   Italic 10
+SRAM Decoded Chip Select and Address Outputs
+Wire Wire Line
+	2850 6800 3300 6800
+Wire Wire Line
+	2850 6400 3300 6400
+Wire Wire Line
+	2850 6000 3300 6000
+Wire Wire Line
+	1900 5150 3300 5150
+Wire Wire Line
+	1900 5250 3300 5250
+Wire Wire Line
+	1900 5350 3300 5350
+Wire Wire Line
+	1900 5450 3300 5450
+Wire Wire Line
+	1900 5550 3300 5550
+Wire Wire Line
+	1900 5650 3300 5650
+Entry Wire Line
+	900  6050 1000 6150
+Entry Wire Line
+	900  6150 1000 6250
+Entry Wire Line
+	900  6250 1000 6350
+Wire Wire Line
+	1000 6150 1350 6150
+Wire Wire Line
+	1000 6250 1350 6250
+Wire Wire Line
+	1000 6350 1350 6350
+Text Label 1050 6150 0    50   ~ 0
+~ADDR21
+Text Label 1050 6250 0    50   ~ 0
+~ADDR22
+Text Label 1050 6350 0    50   ~ 0
+~ADDR23
+Text HLabel 900  5950 1    50   Input ~ 0
+~ADDR[20..23]
+Text HLabel 1700 5900 0    50   Input ~ 0
+CS1
+Wire Wire Line
+	1800 6300 1800 5900
+Wire Wire Line
+	1800 6300 2350 6300
+Connection ~ 1800 5900
+Wire Wire Line
+	1800 5900 1700 5900
+Wire Wire Line
+	1800 6300 1800 6700
+Wire Wire Line
+	1800 6700 2350 6700
+Connection ~ 1800 6300
+Text Label 3300 5150 2    50   ~ 0
+SRAM0_LB
+Text Label 3300 5250 2    50   ~ 0
+SRAM0_UB
+Text Label 3300 5350 2    50   ~ 0
+SRAM1_LB
+Text Label 3300 5450 2    50   ~ 0
+SRAM1_UB
+Text Label 3300 5550 2    50   ~ 0
+SRAM2_LB
+Text Label 3300 5650 2    50   ~ 0
+SRAM2_UB
+Text Label 3300 6800 2    50   ~ 0
+~SRAM2_CS
+Text Label 3300 6400 2    50   ~ 0
+~SRAM1_CS
+Text Label 3300 6000 2    50   ~ 0
+~SRAM0_CS
+$Comp
+L Zippy:SN74ALVC04 U?
+U 7 1 5E9D1E38
+P 4600 5900
+AR Path="/5DCC6C4D/5E9D1E38" Ref="U?"  Part="7" 
+AR Path="/5E0F773C/5E9D1E38" Ref="U?"  Part="7" 
+F 0 "U?" H 4600 6165 50  0000 C CNN
+F 1 "SN74ALVC04" H 4600 6074 50  0000 C CNN
+F 2 "" H 4400 5900 50  0001 C CNN
+F 3 "" H 4400 5900 50  0001 C CNN
+	7    4600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E9D1E3E
+P 4600 6400
+AR Path="/5E0F773C/5E9D1E3E" Ref="C?"  Part="1" 
+AR Path="/5DCC6C4D/5E9D1E3E" Ref="C?"  Part="1" 
+F 0 "C?" V 4371 6400 50  0000 C CNN
+F 1 "0.1uF" V 4462 6400 50  0000 C CNN
+F 2 "" H 4600 6400 50  0001 C CNN
+F 3 "~" H 4600 6400 50  0001 C CNN
+	1    4600 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EA3E210
+P 4150 5650
+F 0 "#PWR?" H 4150 5500 50  0001 C CNN
+F 1 "+3V3" H 4165 5823 50  0000 C CNN
+F 2 "" H 4150 5650 50  0001 C CNN
+F 3 "" H 4150 5650 50  0001 C CNN
+	1    4150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA3E949
+P 5000 6600
+F 0 "#PWR?" H 5000 6350 50  0001 C CNN
+F 1 "GND" H 5005 6427 50  0000 C CNN
+F 2 "" H 5000 6600 50  0001 C CNN
+F 3 "" H 5000 6600 50  0001 C CNN
+	1    5000 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5900 5000 5900
+Wire Wire Line
+	5000 5900 5000 6400
+Wire Wire Line
+	4700 6400 5000 6400
+Connection ~ 5000 6400
+Wire Wire Line
+	5000 6400 5000 6600
+Wire Wire Line
+	4500 6400 4150 6400
+Wire Wire Line
+	4150 6400 4150 5900
+Wire Wire Line
+	4150 5900 4250 5900
+Connection ~ 4150 5900
+Wire Wire Line
+	4150 5900 4150 5650
 Wire Bus Line
-	4350 1500 4350 3100
-Wire Bus Line
-	7000 1500 7000 3100
-Wire Bus Line
-	9500 1500 9500 3100
-Wire Bus Line
-	5100 1500 5100 3600
+	900  5950 900  6250
 Wire Bus Line
 	7600 1500 7600 3600
 Wire Bus Line
+	5100 1500 5100 3600
+Wire Bus Line
 	2450 1500 2450 3600
+Wire Bus Line
+	9500 1500 9500 3100
+Wire Bus Line
+	7000 1500 7000 3100
+Wire Bus Line
+	4350 1500 4350 3100
 $EndSCHEMATC

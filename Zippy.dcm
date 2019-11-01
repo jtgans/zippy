@@ -10,4 +10,16 @@ D Power symbol creates a global label with name "+3V3SB"
 K power-flag
 $ENDCMP
 #
+$CMP SN74ALVC04
+D NOT VERIFIED!
+$ENDCMP
+#
+$CMP SN74ALVC10
+D NOT VERIFIED!
+$ENDCMP
+#
+$CMP SN74LVC86ADR
+D NOT VERIFIED!
+$ENDCMP
+#
 #End Doc Library

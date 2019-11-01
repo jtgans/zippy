@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -261,7 +261,6 @@ NoConn ~ 3350 3150
 NoConn ~ 4150 3650
 NoConn ~ 4150 3750
 NoConn ~ 4150 3850
-NoConn ~ 4150 3950
 NoConn ~ 4150 3250
 NoConn ~ 4150 3350
 Wire Wire Line
@@ -483,4 +482,8 @@ Text HLabel 3100 3650 0    50   Input ~ 0
 PWR_GD
 Wire Wire Line
 	3350 3650 3100 3650
+Wire Wire Line
+	4150 3950 4400 3950
+Text HLabel 4400 3950 2    50   Input ~ 0
+SWAP23
 $EndSCHEMATC
