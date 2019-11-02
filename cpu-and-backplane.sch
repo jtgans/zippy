@@ -103,8 +103,6 @@ RTC_XIN
 Text Label 2100 4950 0    50   ~ 0
 RTC_XOUT
 Wire Wire Line
-	3900 3950 4250 3950
-Wire Wire Line
 	3900 4150 4250 4150
 NoConn ~ 3900 4250
 Wire Wire Line
@@ -123,8 +121,6 @@ Entry Wire Line
 	4300 3150 4400 3050
 Entry Wire Line
 	4300 3250 4400 3150
-Text Notes 4600 3950 0    50   Italic 10
-FIXME: ROUTE TO MAINBOARD ONLY
 Wire Wire Line
 	3900 5050 4250 5050
 Wire Wire Line
@@ -558,8 +554,6 @@ Text HLabel 4250 3650 2    50   Input ~ 0
 ~RD
 Text HLabel 4250 3750 2    50   Input ~ 0
 ~WR
-Text HLabel 4250 3950 2    50   Input ~ 0
-~INSTRD
 Text HLabel 4250 4150 2    50   Input ~ 0
 ~WAIT
 Text HLabel 4250 4450 2    50   Input ~ 0
@@ -609,86 +603,86 @@ $EndComp
 Wire Wire Line
 	4600 6000 4600 6050
 $Sheet
-S 7850 4350 1250 1000
+S 7850 4150 1250 1000
 U 5E565A79
 F0 "Crowbar Slot Select Logic" 50
 F1 "crowbar-slot-selects.sch" 50
-F2 "ADDR[0..23]" I L 7850 4450 50 
-F3 "~CS[0..3]" I L 7850 4550 50 
-F4 "SWAP23" I L 7850 4750 50 
-F5 "~SLOT_CS0" I R 9100 4450 50 
-F6 "~SLOT_CS1" I R 9100 4550 50 
-F7 "~SLOT_CS2" I R 9100 4650 50 
-F8 "~SLOT_CS3" I R 9100 4750 50 
-F9 "~ADDR20" I R 9100 4950 50 
-F10 "~ADDR21" I R 9100 5050 50 
-F11 "~ADDR22" I R 9100 5150 50 
-F12 "~ADDR23" I R 9100 5250 50 
-F13 "CS1" I R 9100 4850 50 
+F2 "ADDR[0..23]" I L 7850 4250 50 
+F3 "~CS[0..3]" I L 7850 4350 50 
+F4 "SWAP23" I L 7850 4550 50 
+F5 "~SLOT_CS0" I R 9100 4250 50 
+F6 "~SLOT_CS1" I R 9100 4350 50 
+F7 "~SLOT_CS2" I R 9100 4450 50 
+F8 "~SLOT_CS3" I R 9100 4550 50 
+F9 "~ADDR20" I R 9100 4750 50 
+F10 "~ADDR21" I R 9100 4850 50 
+F11 "~ADDR22" I R 9100 4950 50 
+F12 "~ADDR23" I R 9100 5050 50 
+F13 "CS1" I R 9100 4650 50 
 $EndSheet
 Wire Bus Line
-	7850 4450 7700 4450
-Entry Wire Line
-	9550 4750 9650 4650
-Entry Wire Line
-	9550 4650 9650 4550
+	7850 4250 7700 4250
 Entry Wire Line
 	9550 4550 9650 4450
 Entry Wire Line
 	9550 4450 9650 4350
+Entry Wire Line
+	9550 4350 9650 4250
+Entry Wire Line
+	9550 4250 9650 4150
+Wire Wire Line
+	9550 4250 9100 4250
+Wire Wire Line
+	9550 4350 9100 4350
 Wire Wire Line
 	9550 4450 9100 4450
 Wire Wire Line
 	9550 4550 9100 4550
-Wire Wire Line
-	9550 4650 9100 4650
-Wire Wire Line
-	9550 4750 9100 4750
-Text Label 9150 4450 0    50   ~ 0
+Text Label 9150 4250 0    50   ~ 0
 ~SLOT_CS0
-Text Label 9150 4550 0    50   ~ 0
+Text Label 9150 4350 0    50   ~ 0
 ~SLOT_CS1
-Text Label 9150 4650 0    50   ~ 0
+Text Label 9150 4450 0    50   ~ 0
 ~SLOT_CS2
-Text Label 9150 4750 0    50   ~ 0
+Text Label 9150 4550 0    50   ~ 0
 ~SLOT_CS3
-Text HLabel 9650 4250 2    50   Input ~ 0
+Text HLabel 9650 4050 2    50   Input ~ 0
 SLOT_CS[0..2]
 Wire Wire Line
-	7850 4750 7700 4750
+	7850 4550 7700 4550
 Wire Wire Line
-	9100 4850 9650 4850
+	9100 4650 9650 4650
+Wire Wire Line
+	9100 4750 9550 4750
+Wire Wire Line
+	9100 4850 9550 4850
 Wire Wire Line
 	9100 4950 9550 4950
 Wire Wire Line
 	9100 5050 9550 5050
-Wire Wire Line
-	9100 5150 9550 5150
-Wire Wire Line
-	9100 5250 9550 5250
+Entry Wire Line
+	9550 4750 9650 4850
+Entry Wire Line
+	9550 4850 9650 4950
 Entry Wire Line
 	9550 4950 9650 5050
 Entry Wire Line
 	9550 5050 9650 5150
-Entry Wire Line
-	9550 5150 9650 5250
-Entry Wire Line
-	9550 5250 9650 5350
-Text HLabel 9650 5450 2    50   Input ~ 0
+Text HLabel 9650 5250 2    50   Input ~ 0
 ~ADDR[20..23]
-Text Label 9150 4950 0    50   ~ 0
+Text Label 9150 4750 0    50   ~ 0
 ~ADDR20
-Text Label 9150 5050 0    50   ~ 0
+Text Label 9150 4850 0    50   ~ 0
 ~ADDR21
-Text Label 9150 5150 0    50   ~ 0
+Text Label 9150 4950 0    50   ~ 0
 ~ADDR22
-Text Label 9150 5250 0    50   ~ 0
+Text Label 9150 5050 0    50   ~ 0
 ~ADDR23
-Text HLabel 9650 4850 2    50   Input ~ 0
+Text HLabel 9650 4650 2    50   Input ~ 0
 CS1
-Text HLabel 7700 4450 0    50   Input ~ 0
+Text HLabel 7700 4250 0    50   Input ~ 0
 ADDR[0..23]
-Text HLabel 7700 4750 0    50   Input ~ 0
+Text HLabel 7700 4550 0    50   Input ~ 0
 SWAP23
 Entry Wire Line
 	1650 6000 1750 6100
@@ -742,20 +736,43 @@ Entry Wire Line
 	1650 6600 1750 6500
 Text Label 4400 2800 0    50   ~ 0
 ~CS[0..3]
-Text Label 7300 4600 0    50   ~ 0
+Text Label 7300 4400 0    50   ~ 0
 ~CS[0..3]
 Wire Bus Line
-	7850 4550 7700 4550
+	7850 4350 7700 4350
 Wire Bus Line
-	7700 4550 7700 4600
+	7700 4350 7700 4400
 Wire Bus Line
-	7700 4600 7300 4600
+	7700 4400 7300 4400
+Text Label 7950 5900 0    50   ~ 0
+~CS[0..3]
+Wire Bus Line
+	8350 5900 7950 5900
+Entry Wire Line
+	8350 5900 8450 6000
+Wire Wire Line
+	8450 6000 8900 6000
+Text HLabel 8900 6000 2    50   Input ~ 0
+~CS0
+Text Label 8550 6000 0    50   ~ 0
+~CS0
+Wire Notes Line
+	7850 5600 9200 5600
+Wire Notes Line
+	9200 5600 9200 6200
+Wire Notes Line
+	9200 6200 7850 6200
+Wire Notes Line
+	7850 6200 7850 5600
+Text Notes 9200 5700 2    50   Italic 10
+Boot ROM Chip Select
+NoConn ~ 3900 3950
 Wire Wire Line
 	1650 5900 1650 6300
 Wire Bus Line
-	9650 5050 9650 5450
+	9650 4850 9650 5250
 Wire Bus Line
-	9650 4250 9650 4650
+	9650 4050 9650 4450
 Wire Bus Line
 	4400 2750 4400 3150
 Wire Wire Line
