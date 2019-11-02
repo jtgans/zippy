@@ -3,3 +3,7 @@
 *-cache.lib
 *-bak
 fp-info-cache
+*.csv
+*.tsv
+*.xml
+
