@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri /Users/jtgans/Projects/Zippy/zippy/footprints.pretty)(options "")(descr ""))
+  (lib (name 1-1775099-3)(type Legacy)(uri /Users/jtgans/Projects/Zippy/zippy/1-1775099-3.mod)(options "")(descr ""))
+  (lib (name AP1501A-33K5G-13)(type Legacy)(uri /Users/jtgans/Projects/Zippy/zippy/AP1501A-33K5G-13.mod)(options "")(descr ""))
+  (lib (name EZ80L92AZ050SG)(type Legacy)(uri /Users/jtgans/Projects/Zippy/zippy/EZ80L92AZ050SG.mod)(options "")(descr ""))
+)
