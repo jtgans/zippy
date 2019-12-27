@@ -1,7 +1,7 @@
 (fp_lib_table
-  (lib (name "digikey-kicad-library")(type "KiCad")(uri "/home/jtgans/Projects/zippy/zippy/digikey-kicad-library")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "/home/jtgans/Projects/zippy/zippy/footprints.pretty")(options "")(descr ""))
-  (lib (name "1-1775099-3")(type "Legacy")(uri "/home/jtgans/Projects/zippy/zippy/1-1775099-3.mod")(options "")(descr ""))
-  (lib (name "AP1501A-33K5G-13")(type "Legacy")(uri "/home/jtgans/Projects/zippy/zippy/AP1501A-33K5G-13.mod")(options "")(descr ""))
-  (lib (name "EZ80L92AZ050SG")(type "Legacy")(uri "/home/jtgans/Projects/zippy/zippy/EZ80L92AZ050SG.mod")(options "")(descr ""))
+  (lib (name "digikey-kicad-library")(type "KiCad")(uri "${KIPRJMOD}/../../zippy/digikey-kicad-library")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../../zippy/footprints.pretty")(options "")(descr ""))
+  (lib (name "1-1775099-3")(type "Legacy")(uri "${KIPRJMOD}/../../zippy/1-1775099-3.mod")(options "")(descr ""))
+  (lib (name "AP1501A-33K5G-13")(type "Legacy")(uri "${KIPRJMOD}/../../zippy/AP1501A-33K5G-13.mod")(options "")(descr ""))
+  (lib (name "EZ80L92AZ050SG")(type "Legacy")(uri "${KIPRJMOD}/../../zippy/EZ80L92AZ050SG.mod")(options "")(descr ""))
 )
