@@ -1,0 +1,4 @@
+* Fixes
+  - Swap the order of the address lines
+  - Add additional ground next to VCC
+  - Swap Xin and Xout labelling
