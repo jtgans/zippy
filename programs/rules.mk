@@ -12,7 +12,7 @@ default:: ;
 	$(AS) $(ASFLAGS) -o $@ $<
 
 %.hex: %.o
-	$(LD) -e 0 --oformat ihex -o $@ $<
+	$(LD) -e 0 --oformat ihex -o $@ $^
 
 clean::
 	rm -f *.o
