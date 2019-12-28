@@ -211,21 +211,21 @@ Text Label 6900 3350 2    50   ~ 0
 Text Label 6900 3550 2    50   ~ 0
 RWDS
 Text Label 3650 4050 0    50   ~ 0
-~RESET
+~INT
 Wire Wire Line
 	3900 3950 3650 3950
 Text Label 3300 3250 2    50   ~ 0
-DQ0
+DQ7
 Text Label 3300 3350 2    50   ~ 0
 DQ1
 Text Label 3300 3950 2    50   ~ 0
-DQ7
+DQ2
 Text Label 3300 3750 2    50   ~ 0
-DQ5
-Text Label 3300 3550 2    50   ~ 0
 DQ3
+Text Label 3300 3550 2    50   ~ 0
+DQ0
 Text Label 3300 3850 2    50   ~ 0
-DQ6
+DQ4
 Wire Wire Line
 	3300 3650 3050 3650
 Wire Wire Line
@@ -233,9 +233,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 3250 3050 3250
 Text Label 3300 3650 2    50   ~ 0
-DQ4
+DQ5
 Text Label 3300 3450 2    50   ~ 0
-DQ2
+DQ6
 Wire Wire Line
 	3300 3450 3050 3450
 Wire Wire Line
@@ -318,9 +318,9 @@ Connection ~ 6650 5550
 Wire Wire Line
 	3900 3350 3650 3350
 Text Label 3650 3350 0    50   ~ 0
-CK
+~CS1
 Text Label 3650 3550 0    50   ~ 0
-RWDS
+CK
 Wire Wire Line
 	3900 3750 3650 3750
 Wire Wire Line
@@ -368,13 +368,13 @@ Wire Wire Line
 Text Label 3650 3450 0    50   ~ 0
 ~CK
 Text Label 3650 3650 0    50   ~ 0
-~CS1
-Text Label 3650 3750 0    50   ~ 0
-~CS2
-Text Label 3650 3950 0    50   ~ 0
 ~RSTO
+Text Label 3650 3750 0    50   ~ 0
+RWDS
+Text Label 3650 3950 0    50   ~ 0
+~RESET
 Text Label 3650 3850 0    50   ~ 0
-~INT
+~CS2
 Wire Wire Line
 	3900 3650 3650 3650
 $Comp
