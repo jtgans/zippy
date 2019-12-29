@@ -6,4 +6,5 @@ fp-info-cache
 *.csv
 *.tsv
 *.xml
-
+*.o
+*.hex
