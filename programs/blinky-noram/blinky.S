@@ -20,9 +20,9 @@ _delay_outer:
     ld c, 0xff
 _delay_inner:    
 	dec c
-    jp z, _delay_inner
+    jp nz, _delay_inner
     dec b
-    jp z, _delay_outer
+    jp nz, _delay_outer
     
     rrca
 	
