@@ -10,6 +10,10 @@ D Power symbol creates a global label with name "+3V3SB"
 K power-flag
 $ENDCMP
 #
+$CMP AT91R40008
+D ROM-less ARM 7TDMI-T microcontroller
+$ENDCMP
+#
 $CMP SN74ALVC04
 D NOT VERIFIED!
 $ENDCMP
