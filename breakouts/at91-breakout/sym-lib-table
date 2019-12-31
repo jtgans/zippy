@@ -154,5 +154,4 @@
   (lib (name "dk_Transistors-JFETs")(type "Legacy")(uri "${KIPRJMOD}/../../zippy/digikey-kicad-library/digikey-symbols/dk_Transistors-JFETs.lib")(options "")(descr ""))
   (lib (name "dk_Trimmer-Potentiometers")(type "Legacy")(uri "${KIPRJMOD}/../../zippy/digikey-kicad-library/digikey-symbols/dk_Trimmer-Potentiometers.lib")(options "")(descr ""))
   (lib (name "dk_USB-DVI-HDMI-Connectors")(type "Legacy")(uri "${KIPRJMOD}/../../zippy/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib")(options "")(descr ""))
-  (lib (name "at91-breakout-rescue")(type "Legacy")(uri "${KIPRJMOD}/at91-breakout-rescue.lib")(options "")(descr ""))
 )
